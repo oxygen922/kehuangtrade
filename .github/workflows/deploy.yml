@@ -28,6 +28,7 @@ jobs:
       - run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /kehuangtrade
+          NEXT_PUBLIC_IMG_BASE: https://img.kehuangtrade.com
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
