@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { solutions, getSolution, casesByIds, name, desc, type Lang } from "@/lib/data";
 import { t, langs } from "@/lib/i18n";
+import { withBase } from "@/lib/site";
 import { InquiryBanner } from "@/components/InquiryBanner";
 
 export const dynamicParams = false;
@@ -23,8 +24,11 @@ export async function generateMetadata({
     title,
     description: (lang === "zh" ? s.painZh : s.painVi).slice(0, 100),
     alternates: {
-      canonical: `/${lang}/solutions/${s.slug}/`,
-      languages: { vi: `/vi/solutions/${s.slug}/`, zh: `/zh/solutions/${s.slug}/` },
+      canonical: withBase(`/${lang}/solutions/${s.slug}/`),
+      languages: {
+        vi: withBase(`/vi/solutions/${s.slug}/`),
+        zh: withBase(`/zh/solutions/${s.slug}/`),
+      },
     },
   };
 }
@@ -48,7 +52,7 @@ export default function SolutionPage({
   return (
     <div className="container">
       <div className="crumbs">
-        <a href={`/${lang}/`}>{d.breadcrumb.home}</a> / <a href={`/${lang}/solutions/`}>{d.nav.solutions}</a> /{" "}
+        <a href={withBase(`/${lang}/`)}>{d.breadcrumb.home}</a> / <a href={withBase(`/${lang}/solutions/`)}>{d.nav.solutions}</a> /{" "}
         {isZh ? s.titleZh : s.titleVi}
       </div>
 
@@ -81,7 +85,7 @@ export default function SolutionPage({
               <article className="case-card" key={c.id}>
                 <div className="case-card-img">
                   <img
-                    src={c.images[0]}
+                    src={withBase(c.images[0])}
                     alt={name(lang, c)}
                     loading="lazy"
                     width={640}

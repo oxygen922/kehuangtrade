@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t, type Lang } from "@/lib/i18n";
-import { site } from "@/lib/site";
+import { site, withBase } from "@/lib/site";
 
 export function Header({ lang }: { lang: Lang }) {
   const d = t(lang);
@@ -24,7 +24,7 @@ export function Header({ lang }: { lang: Lang }) {
         <div className="header-top">
           <Link href={`/${lang}/`} className="brand" hrefLang={lang}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/logo.svg" alt="" width={30} height={30} />
+            <img src={withBase("/images/logo.svg")} alt="" width={30} height={30} />
             {brand}
           </Link>
           <div className="header-actions">

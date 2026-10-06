@@ -1,5 +1,5 @@
 import { t, type Lang } from "@/lib/i18n";
-import { site, zaloLink, whatsappLink } from "@/lib/site";
+import { site, zaloLink, whatsappLink, withBase } from "@/lib/site";
 
 export function Footer({ lang }: { lang: Lang }) {
   const d = t(lang);
@@ -11,7 +11,7 @@ export function Footer({ lang }: { lang: Lang }) {
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/images/logo.svg" alt="" width={26} height={26} />
+              <img src={withBase("/images/logo.svg")} alt="" width={26} height={26} />
               <h4 style={{ margin: 0 }}>{brand}</h4>
             </div>
             <p>{d.home.heroTitle}</p>

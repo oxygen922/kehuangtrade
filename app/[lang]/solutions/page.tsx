@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { solutions, type Lang } from "@/lib/data";
 import { t, langs } from "@/lib/i18n";
+import { withBase } from "@/lib/site";
 
 export function generateStaticParams() {
   return langs.map((lang) => ({ lang }));
@@ -18,7 +19,7 @@ export default function SolutionsPage({ params }: { params: { lang: string } }) 
   return (
     <div className="container">
       <div className="crumbs">
-        <a href={`/${lang}/`}>{d.breadcrumb.home}</a> / {d.nav.solutions}
+        <a href={withBase(`/${lang}/`)}>{d.breadcrumb.home}</a> / {d.nav.solutions}
       </div>
       <div className="page-head">
         <h1>{d.nav.solutions}</h1>
@@ -28,7 +29,7 @@ export default function SolutionsPage({ params }: { params: { lang: string } }) 
         {solutions.map((s) => (
           <Link key={s.slug} href={`/${lang}/solutions/${s.slug}/`} className="card card-link">
             <div className="card-img">
-              <img src={`/images/solutions/${s.slug}.jpg`} alt={lang === "zh" ? s.titleZh : s.titleVi} loading="lazy" width={400} height={300} />
+              <img src={withBase(`/images/solutions/${s.slug}.jpg`)} alt={lang === "zh" ? s.titleZh : s.titleVi} loading="lazy" width={400} height={300} />
             </div>
             <div className="card-pad">
               <h3>{lang === "zh" ? s.titleZh : s.titleVi}</h3>

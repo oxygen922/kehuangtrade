@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { categories, byCategory, getCategory, name, desc, type Lang } from "@/lib/data";
 import { t, langs } from "@/lib/i18n";
+import { withBase } from "@/lib/site";
 import { ProductCard } from "@/components/ProductCard";
 import { InquiryBanner } from "@/components/InquiryBanner";
 
@@ -23,8 +24,11 @@ export async function generateMetadata({
     title: name(lang, c),
     description: desc(lang, c),
     alternates: {
-      canonical: `/${lang}/category/${c.slug}/`,
-      languages: { vi: `/vi/category/${c.slug}/`, zh: `/zh/category/${c.slug}/` },
+      canonical: withBase(`/${lang}/category/${c.slug}/`),
+      languages: {
+        vi: withBase(`/vi/category/${c.slug}/`),
+        zh: withBase(`/zh/category/${c.slug}/`),
+      },
     },
   };
 }
@@ -43,7 +47,7 @@ export default function CategoryPage({
   return (
     <div className="container">
       <div className="crumbs">
-        <a href={`/${lang}/`}>{d.breadcrumb.home}</a> / {name(lang, c)}
+        <a href={withBase(`/${lang}/`)}>{d.breadcrumb.home}</a> / {name(lang, c)}
       </div>
       <div className="page-head">
         <h1>{name(lang, c)}</h1>

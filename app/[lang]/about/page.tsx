@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { t, langs, type Lang } from "@/lib/i18n";
-import { site, zaloLink, whatsappLink } from "@/lib/site";
+import { site, zaloLink, whatsappLink, withBase } from "@/lib/site";
 
 export function generateStaticParams() {
   return langs.map((lang) => ({ lang }));
@@ -17,7 +17,7 @@ export default function AboutPage({ params }: { params: { lang: string } }) {
   return (
     <div className="container">
       <div className="crumbs">
-        <a href={`/${lang}/`}>{d.breadcrumb.home}</a> / {d.about.title}
+        <a href={withBase(`/${lang}/`)}>{d.breadcrumb.home}</a> / {d.about.title}
       </div>
       <div className="page-head">
         <h1>{d.about.title}</h1>
@@ -111,7 +111,7 @@ export default function AboutPage({ params }: { params: { lang: string } }) {
           {d.about.docs.map((doc) => (
             <div className="doc-card" key={doc.name}>
               <div className="doc-card-img">
-                <img src={doc.img} alt={doc.name} loading="lazy" width={400} height={300} />
+                <img src={withBase(doc.img)} alt={doc.name} loading="lazy" width={400} height={300} />
               </div>
               <div className="doc-card-body">
                 <h3>{doc.name}</h3>

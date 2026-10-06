@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { categories, byCategory, name, type Lang } from "@/lib/data";
 import { t, langs } from "@/lib/i18n";
-import { zaloLink, whatsappLink, site } from "@/lib/site";
+import { zaloLink, whatsappLink, site, withBase } from "@/lib/site";
 import { TrustBar } from "@/components/TrustBar";
 import { InquiryBanner } from "@/components/InquiryBanner";
 import { CategoryIcon } from "@/components/CategoryIcon";
@@ -26,7 +26,7 @@ export default function HomePage({ params }: { params: { lang: string } }) {
       {/* ① Hero：10秒说清“这是谁、能干什么、怎么询价” */}
       <section className="hero">
         <div className="hero-bg">
-          <img src="/images/hero.jpg" alt="" />
+          <img src={withBase("/images/hero.jpg")} alt="" />
         </div>
         <div className="container">
           <div className="hero-inner">

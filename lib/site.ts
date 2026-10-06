@@ -20,3 +20,7 @@ export const zaloLink = () => `https://zalo.me/${site.zalo.replace(/\s/g, "")}`;
 // WhatsApp 支持预填文案，转化直连时带上开场白
 export const whatsappLink = (text?: string) =>
   `https://wa.me/${site.phoneIntl}${text ? `?text=${encodeURIComponent(text)}` : ""}`;
+
+// 子路径部署前缀（GitHub Pages 仓库名 = /kehuangtrade；根域名部署时为空，不影响 Cloudflare Pages）
+export const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+export const withBase = (p: string) => `${basePath}${p}`;

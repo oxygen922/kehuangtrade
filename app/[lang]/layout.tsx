@@ -5,7 +5,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FloatingCTA } from "@/components/FloatingCTA";
 import { t, langs, type Lang } from "@/lib/i18n";
-import { site } from "@/lib/site";
+import { site, withBase } from "@/lib/site";
 
 export function generateStaticParams() {
   return langs.map((lang) => ({ lang }));
@@ -26,7 +26,7 @@ export async function generateMetadata({
     },
     description: d.home.heroSub,
     alternates: {
-      languages: { vi: "/vi/", zh: "/zh/" },
+      languages: { vi: withBase("/vi/"), zh: withBase("/zh/") },
     },
   };
 }

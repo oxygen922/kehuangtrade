@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { products, getProduct, relatedProducts, getCategory, name, type Lang } from "@/lib/data";
 import { t, langs } from "@/lib/i18n";
-import { zaloLink, whatsappLink, site } from "@/lib/site";
+import { zaloLink, whatsappLink, site, withBase } from "@/lib/site";
 import { ProductCard } from "@/components/ProductCard";
 import { InquiryBanner } from "@/components/InquiryBanner";
 
@@ -24,8 +24,11 @@ export async function generateMetadata({
     title: name(lang, p),
     description: (lang === "zh" ? p.introZh : p.introVi) || name(lang, p),
     alternates: {
-      canonical: `/${lang}/product/${p.id}/`,
-      languages: { vi: `/vi/product/${p.id}/`, zh: `/zh/product/${p.id}/` },
+      canonical: withBase(`/${lang}/product/${p.id}/`),
+      languages: {
+        vi: withBase(`/vi/product/${p.id}/`),
+        zh: withBase(`/zh/product/${p.id}/`),
+      },
     },
   };
 }
@@ -55,10 +58,10 @@ export default function ProductPage({ params }: { params: { lang: string; id: st
     <div className="container">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="crumbs">
-        <a href={`/${lang}/`}>{d.breadcrumb.home}</a> /{" "}
+        <a href={withBase(`/${lang}/`)}>{d.breadcrumb.home}</a> /{" "}
         {cat && (
           <>
-            <a href={`/${lang}/category/${cat.slug}/`}>{name(lang, cat)}</a> /{" "}
+            <a href={withBase(`/${lang}/category/${cat.slug}/`)}>{name(lang, cat)}</a> /{" "}
           </>
         )}
         {name(lang, p)}
@@ -66,7 +69,7 @@ export default function ProductPage({ params }: { params: { lang: string; id: st
 
       <div className="product-layout" style={{ marginTop: 12 }}>
         <div className="detail-img">
-          <img src={p.images[0]} alt={name(lang, p)} width={600} height={600} />
+          <img src={withBase(p.images[0])} alt={name(lang, p)} width={600} height={600} />
         </div>
 
         <div className="detail-info">
