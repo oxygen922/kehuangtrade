@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { solutions, getSolution, casesByIds, name, desc, type Lang } from "@/lib/data";
 import { t, langs } from "@/lib/i18n";
-import { withBase } from "@/lib/site";
+import { withBase, cdn } from "@/lib/site";
 import { InquiryBanner } from "@/components/InquiryBanner";
 
 export const dynamicParams = false;
@@ -85,7 +85,7 @@ export default function SolutionPage({
               <article className="case-card" key={c.id}>
                 <div className="case-card-img">
                   <img
-                    src={withBase(c.images[0])}
+                    src={cdn(c.images[0])}
                     alt={name(lang, c)}
                     loading="lazy"
                     width={640}

@@ -24,3 +24,9 @@ export const whatsappLink = (text?: string) =>
 // 子路径部署前缀（GitHub Pages 仓库名 = /kehuangtrade；根域名部署时为空，不影响 Cloudflare Pages）
 export const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 export const withBase = (p: string) => `${basePath}${p}`;
+
+// R2 图片外链（NEXT_PUBLIC_IMG_BASE 设为桶公开地址如 https://pub-xxx.r2.dev 时启用；
+// 桶内对象键不带 /images 前缀，因此映射时剥掉；未设置时回落本地 /images）
+export const imgBase = process.env.NEXT_PUBLIC_IMG_BASE ?? "";
+export const cdn = (p: string) =>
+  imgBase ? `${imgBase}${p.replace(/^\/images/, "")}` : withBase(p);

@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { products, getProduct, relatedProducts, getCategory, name, type Lang } from "@/lib/data";
 import { t, langs } from "@/lib/i18n";
-import { zaloLink, whatsappLink, site, withBase } from "@/lib/site";
+import { zaloLink, whatsappLink, site, withBase, cdn } from "@/lib/site";
 import { ProductCard } from "@/components/ProductCard";
 import { InquiryBanner } from "@/components/InquiryBanner";
 
@@ -69,7 +69,7 @@ export default function ProductPage({ params }: { params: { lang: string; id: st
 
       <div className="product-layout" style={{ marginTop: 12 }}>
         <div className="detail-img">
-          <img src={withBase(p.images[0])} alt={name(lang, p)} width={600} height={600} />
+          <img src={cdn(p.images[0])} alt={name(lang, p)} width={600} height={600} />
         </div>
 
         <div className="detail-info">

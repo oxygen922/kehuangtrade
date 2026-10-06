@@ -1,5 +1,5 @@
 /** 品类磁贴图标：优先用实拍图标（McMaster 裁帧/真产品图），缺省回退到线条 SVG */
-import { withBase } from "@/lib/site";
+import { cdn } from "@/lib/site";
 
 const paths: Record<string, React.ReactNode> = {
   labor: (
@@ -127,7 +127,7 @@ export function CategoryIcon({
   if (icon) {
     return (
       <img
-        src={withBase(icon)}
+        src={cdn(icon)}
         alt=""
         width={size}
         height={size}

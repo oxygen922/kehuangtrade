@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { solutions, type Lang } from "@/lib/data";
 import { t, langs } from "@/lib/i18n";
-import { withBase } from "@/lib/site";
+import { withBase, cdn } from "@/lib/site";
 
 export function generateStaticParams() {
   return langs.map((lang) => ({ lang }));
@@ -29,7 +29,7 @@ export default function SolutionsPage({ params }: { params: { lang: string } }) 
         {solutions.map((s) => (
           <Link key={s.slug} href={`/${lang}/solutions/${s.slug}/`} className="card card-link">
             <div className="card-img">
-              <img src={withBase(`/images/solutions/${s.slug}.jpg`)} alt={lang === "zh" ? s.titleZh : s.titleVi} loading="lazy" width={400} height={300} />
+              <img src={cdn(`/images/solutions/${s.slug}.jpg`)} alt={lang === "zh" ? s.titleZh : s.titleVi} loading="lazy" width={400} height={300} />
             </div>
             <div className="card-pad">
               <h3>{lang === "zh" ? s.titleZh : s.titleVi}</h3>
