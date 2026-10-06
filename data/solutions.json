@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "aluminum",
+    "status": "live",
+    "titleZh": "铝材厂的一站式中国供应",
+    "titleVi": "Nguồn cung Trung Quốc một điểm cho nhà máy nhôm",
+    "painZh": "铝材厂最怕两件事：挤压机停机等件，和本地买贵。热电偶、加热元件、液压备件在越南本地难找、价格高；型号杂、图片对不上，沟通成本大。我们按你拍的照片和铭牌型号直接从中国厂家直采，正贸报关含 Form E。",
+    "painVi": "Nhà máy nhôm sợ nhất hai điều: máy ép dừng chờ phụ tùng, và mua đắt tại nội địa. Nhiệt điện cặp, phần tử gia nhiệt, phụ tùng thủy lực ở Việt Nam khó tìm và giá cao; mã hàng phong phú, hình ảnh không khớp khiến trao đổi tốn thời gian. Chúng tôi mua thẳng từ nhà máy Trung Quốc theo ảnh và mã hàng bạn chụp, xuất chính ngạch có Form E.",
+    "items": [
+      { "nameZh": "挤压模具定制件", "nameVi": "Chi tiết khuôn ép định hình", "categorySlug": "equipment" },
+      { "nameZh": "热电偶与加热元件", "nameVi": "Nhiệt điện cặp & phần tử gia nhiệt", "categorySlug": "equipment" },
+      { "nameZh": "液压备件", "nameVi": "Phụ tùng thủy lực", "categorySlug": "equipment" },
+      { "nameZh": "脱模剂与石墨耗材", "nameVi": "Tách khuôn & vật tư than chì", "categorySlug": "facility" },
+      { "nameZh": "高温劳保用品", "nameVi": "Bảo hộ chịu nhiệt", "categorySlug": "labor" },
+      { "nameZh": "锯片与输送皮带", "nameVi": "Lưỡi cưa & băng tải", "categorySlug": "equipment" },
+      { "nameZh": "包装耗材", "nameVi": "Vật tư bao bì", "categorySlug": "facility" }
+    ],
+    "caseIds": ["case-1", "case-6", "case-9"]
+  },
+  {
+    "slug": "autoparts",
+    "status": "live",
+    "titleZh": "汽配与工程机械的一站式中国供应",
+    "titleVi": "Nguồn cung Trung Quốc một điểm cho phụ tùng ô tô & máy công trình",
+    "painZh": "货车与工程机械最怕停机等件：东风系列配件、滤芯、斗齿、液压件在越南本地渠道少、价格高、真假难辨。我们握有东风及主要工程机械品牌的源头渠道，原厂件与优质副厂件按图号直发，价格与货源都稳。",
+    "painVi": "Xe tải và máy công trình sợ nhất dừng máy chờ phụ tùng: phụ tùng Dongfeng, lọc dầu, răng gầu, thủy lực ở Việt Nam ít nơi bán, giá cao, thật giả lẫn lộn. Chúng tôi nắm kênh nguồn của Dongfeng và các hãng máy công trình chính, hàng chính hãng và phụ tùng OEM chất lượng gửi thẳng theo mã bản vẽ.",
+    "items": [
+      { "nameZh": "东风系列易损件", "nameVi": "Phụ tùng hao mòn Dongfeng", "categorySlug": "vehicle" },
+      { "nameZh": "发动机与底盘件", "nameVi": "Phụ tùng động cơ & gầm xe", "categorySlug": "equipment" },
+      { "nameZh": "滤芯与油品", "nameVi": "Lọc & dầu nhớt", "categorySlug": "chemical" },
+      { "nameZh": "工程机械液压件", "nameVi": "Thủy lực máy công trình", "categorySlug": "hydraul" },
+      { "nameZh": "轮胎与底盘耗材", "nameVi": "Lốp & vật tư gầm xe", "categorySlug": "vehicle" }
+    ],
+    "caseIds": ["case-4", "case-5", "case-11", "case-14"]
+  },
+  {
+    "slug": "new-plant",
+    "status": "soon",
+    "titleZh": "新厂筹建整厂开荒包",
+    "titleVi": "Gói khai trương trọn nhà máy mới",
+    "painZh": "新厂筹建期什么都缺：办公家具、厨房设备、宿舍用品、照明灯具、首批工具和劳保。一家家找供应商又慢又贵——一个整柜从中国配齐，落地即开工。",
+    "painVi": "Giai đoạn khai trương nhà máy mới thiếu mọi thứ: nội thất văn phòng, thiết bị bếp, đồ ký túc xá, đèn chiếu sáng, lô dụng cụ và bảo hộ đầu tiên. Tìm từng nhà cung cấp vừa chậm vừa đắt — gom nguyên container từ Trung Quốc, về tới là chạy ngay.",
+    "items": [
+      { "nameZh": "照明灯具与电工辅料", "nameVi": "Đèn chiếu sáng & phụ liệu điện", "categorySlug": "electric" },
+      { "nameZh": "首批劳保用品", "nameVi": "Lô bảo hộ đầu tiên", "categorySlug": "labor" },
+      { "nameZh": "首批工具", "nameVi": "Lô dụng cụ đầu tiên", "categorySlug": "tools" },
+      { "nameZh": "周转与仓储器具", "nameVi": "Thùng chứa & kho vận", "categorySlug": "facility" }
+    ],
+    "caseIds": ["case-2", "case-7", "case-10", "case-13"]
+  },
+  {
+    "slug": "electronic",
+    "status": "soon",
+    "titleZh": "电子组装厂防静电与耗材",
+    "titleVi": "Chống tĩnh điện & vật tư cho nhà máy điện tử",
+    "painZh": "防静电手套、服装、地垫、镊子、钢网擦拭纸——电子厂的日耗品。本地买单价高，找中国源头又怕质量不稳。我们按月固定复购价供货，价格对标 1688。",
+    "painVi": "Găng tay, quần áo, thảm chống tĩnh điện, kẹp nhíp, giấy lau stencil — vật tư tiêu hao hàng ngày của nhà máy điện tử. Mua trong nước đơn giá cao, mua nguồn Trung Quốc lại sợ chất lượng không ổn. Chúng tôi cung ứng theo giá mua lại cố định hàng tháng, đối chiếu 1688.",
+    "items": [
+      { "nameZh": "防静电全套", "nameVi": "Bộ chống tĩnh điện", "categorySlug": "labor" },
+      { "nameZh": "电动螺丝刀与批头", "nameVi": "Máy vít điện & đầu vít", "categorySlug": "tools" },
+      { "nameZh": "周转与存储", "nameVi": "Thùng chứa & lưu trữ", "categorySlug": "facility" }
+    ],
+    "caseIds": ["case-3", "case-8"]
+  },
+  {
+    "slug": "agriculture",
+    "status": "live",
+    "titleZh": "农场与合作社的中国农机供应",
+    "titleVi": "Nguồn nông máy Trung Quốc cho nông trại & hợp tác xã",
+    "painZh": "水泵、微耕机、烘干机在越南农村不缺卖家，缺的是公道价：渠道层层加价，雨季抢收时机器等不起。我们直接从中国农机厂和泵厂拿货，整机正贸进口含合格证，配件同批随行，价格对标中国出厂价。",
+    "painVi": "Máy bơm, máy cày mini, máy sấy không thiếu nơi bán ở nông thôn Việt Nam — điều thiếu là giá phải chăng: các tầng kênh cộng giá chồng chất, mùa mưa gấp rút thì máy chờ không nổi. Chúng tôi lấy thẳng từ nhà máy nông cơ và bơm Trung Quốc, nhập nguyên máy chính ngạch kèm chứng chỉ, phụ tùng đi cùng lô, giá đối chiếu xuất xưởng.",
+    "items": [
+      { "nameZh": "柴油水泵机组", "nameVi": "Máy bơm diesel", "categorySlug": "agri" },
+      { "nameZh": "微耕机与农具", "nameVi": "Máy cày mini & dụng cụ", "categorySlug": "agri" },
+      { "nameZh": "谷物烘干机", "nameVi": "Máy sấy lúa", "categorySlug": "agri" },
+      { "nameZh": "农机润滑油品", "nameVi": "Dầu nhớt nông nghiệp", "categorySlug": "chemical" }
+    ],
+    "caseIds": ["case-12"]
+  }
+]

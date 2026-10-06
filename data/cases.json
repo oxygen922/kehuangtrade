@@ -1,0 +1,226 @@
+[
+  {
+    "id": "case-1",
+    "titleZh": "北宁铝材厂 · 挤压线急件",
+    "titleVi": "Nhà máy nhôm Bắc Ninh · Phụ tùng khẩn cấp dây chuyền ép",
+    "profileZh": "客户：北宁工业区中资铝材厂 · 4 台 800T 挤压机三班运转",
+    "profileVi": "Khách hàng: Nhà máy nhôm tại KCN Bắc Ninh · 4 máy ép 800T chạy 3 ca",
+    "descZh": "挤压机的 K 型热电偶（WRNK-191，L=300mm）与 SPB 三角带同晚烧毁，问遍北宁、河内三家供应商均无对应型号，本地报价虚高且要等 7 天。我们当晚按铭牌照片对型出清单，中国工厂次日直发空运，装机一次成功。",
+    "descVi": "Cùng một tối, nhiệt điện cặp loại K (WRNK-191, L=300mm) và dây curoa SPB của máy ép cùng hỏng; ba nhà cung cấp ở Bắc Ninh, Hà Nội đều không có đúng mã, báo giá cao và phải chờ 7 ngày. Tối cùng ngày chúng tôi đối chiếu theo ảnh tem máy ra danh sách, nhà máy Trung Quốc gửi hàng bay ngay hôm sau, lắp chạy thành công ngay lần đầu.",
+    "metrics": {
+      "zh": [["停机时间", "预计7天 → 2天"], ["备件价格", "比本地报价 -30%"], ["对型响应", "当晚出清单"]],
+      "vi": [["Thời gian dừng máy", "dự kiến 7 → 2 ngày"], ["Giá phụ tùng", "-30% vs nội địa"], ["Đối chiếu mã", "tối cùng ngày"]]
+    },
+    "images": ["/images/cases/case-1.jpg"],
+    "date": "2026-09",
+    "scenario": ["aluminum"]
+  },
+  {
+    "id": "case-2",
+    "titleZh": "中资新厂 · 整厂开荒一柜配齐",
+    "titleVi": "Nhà máy mới (DN Trung Quốc) · Gói khai trương một container",
+    "profileZh": "客户：平阳工业区新建工厂 2,000㎡ · 筹备期 45 天倒计时",
+    "profileVi": "Khách hàng: Nhà máy mới 2.000㎡ tại KCN Bình Dương · đếm ngược 45 ngày khai trương",
+    "descZh": "筹建期什么都缺：LED 工矿灯、首批劳保、工具、仓储周转器具共 47 类物资。原计划找 6-8 家本地供应商逐项比价，我们合成一张清单一柜发出，中国仓集货 18 天整柜到厂，附验货照片与装箱单逐项核对。",
+    "descVi": "Giai đoạn khai trương thiếu mọi thứ: đèn LED xưởng, lô bảo hộ đầu tiên, dụng cụ, dụng cụ kho — tổng 47 nhóm vật tư. Kế hoạch ban đầu là so giá từng hạng mục với 6–8 nhà cung cấp nội địa; chúng tôi gộp thành một danh sách, một container, kho Trung Quốc gom 18 ngày là tới xưởng, kèm ảnh kiểm hàng và packing list đối chiếu từng mục.",
+    "metrics": {
+      "zh": [["采购周期", "6周 → 2周"], ["物资", "47类 / 1整柜"], ["对接窗口", "1个（替代8家）"]],
+      "vi": [["Chu kỳ thu mua", "6 tuần → 2 tuần"], ["Vật tư", "47 nhóm / 1 container"], ["Đầu mối", "1 (thay 8 nhà cung cấp)"]]
+    },
+    "images": ["/images/cases/case-2.jpg"],
+    "date": "2026-08",
+    "scenario": ["new-plant"]
+  },
+  {
+    "id": "case-3",
+    "titleZh": "北江电子厂 · ESD 耗材月度复购",
+    "titleVi": "Nhà máy điện tử Bắc Giang · Mua lại vật tư ESD hàng tháng",
+    "profileZh": "客户：北江电子组装厂 · SMT 产线 6 条 · 原供本地代理",
+    "profileVi": "Khách hàng: Nhà máy điện tử Bắc Giang · 6 dây chuyền SMT · trước mua qua đại lý nội địa",
+    "descZh": "ESD 手套与钢网擦拭纸原先走本地代理：单价高、开票慢、旺季断供两次。改为我方按月直采供货后，同规格手套单副 12,000đ 降至 8,500đ，每月固定批次附带验货照片，12 个月零断供。",
+    "descVi": "Găng ESD và giấy lau stencil trước mua qua đại lý nội địa: giá cao, xuất hóa đơn chậm, hai lần đứt hàng mùa cao điểm. Chuyển sang mua thẳng theo tháng: cùng quy cách, giá một đôi từ 12.000đ xuống 8.500đ, mỗi lô kèm ảnh kiểm hàng, 12 tháng không đứt hàng.",
+    "metrics": {
+      "zh": [["手套单价", "12,000đ → 8,500đ"], ["断供", "0次 / 12个月"], ["比价基准", "对标1688同款"]],
+      "vi": [["Giá găng", "12.000đ → 8.500đ"], ["Đứt hàng", "0 lần / 12 tháng"], ["Chuẩn so sánh", "đối chiếu 1688"]]
+    },
+    "images": ["/images/cases/case-3.jpg"],
+    "date": "2026-07",
+    "scenario": ["electronic"]
+  },
+  {
+    "id": "case-4",
+    "titleZh": "物流车队 · 东风配件急件",
+    "titleVi": "Đội xe logistics · Phụ tùng Dongfeng khẩn cấp",
+    "profileZh": "客户：胡志明物流公司 · 12 台东风牵引车跑长途",
+    "profileVi": "Khách hàng: Công ty logistics TP.HCM · 12 đầu kéo Dongfeng chạy đường dài",
+    "descZh": "旺季两台牵引车先后因水泵与缸垫故障停运，本地经销商报价高且货期 25 天起。我们按底盘号与铭牌照片对件，中国渠道次日发出原厂水泵、缸垫、机油滤套装，空运到胡志明——第 6 天两车全部复运营。",
+    "descVi": "Cao điểm, hai đầu kéo lần lượt dừng vì hỏng bơm nước và gioăng nắp máy; đại lý nội địa báo giá cao, chờ từ 25 ngày. Chúng tôi đối chiếu theo số khung và ảnh tem máy, kênh Trung Quốc gửi bơm nước, gioăng nắp máy, bộ lọc dầu chính hãng ngay hôm sau, bay về TP.HCM — ngày thứ 6 cả hai xe trở lại đường.",
+    "metrics": {
+      "zh": [["复运营", "25天 → 6天"], ["配件成本", "-45% vs 经销商"], ["对件方式", "底盘号·当晚"]],
+      "vi": [["Chạy lại", "25 → 6 ngày"], ["Chi phí phụ tùng", "-45% vs đại lý"], ["Đối chiếu", "số khung, tối cùng ngày"]]
+    },
+    "images": ["/images/cases/case-4.jpg"],
+    "date": "2026-06",
+    "scenario": ["autoparts"]
+  },
+  {
+    "id": "case-5",
+    "titleZh": "土方工程队 · 挖机耗材年度协议",
+    "titleVi": "Đội công trình đất · Vật tư máy công trình theo năm",
+    "profileZh": "客户：平阳土方工程队 · SANY/柳工挖机 8 台",
+    "profileVi": "Khách hàng: Đội máy công trình Bình Dương · 8 máy xúc SANY/LiuGong",
+    "descZh": "原先滤芯、液压油从多家小店零买，副厂件混用导致油温偏高、故障反复。我们按机型整理标准 BOM（滤芯/液压油/斗齿/黄油），季度拼柜直发仓对仓交接，故障率明显下降后签下年度供货协议。",
+    "descVi": "Trước đây lọc và dầu thủy lực mua lẻ nhiều nơi, phụ tùng OEM trôi nổi khiến nhiệt dầu cao, hỏng vặt lặp lại. Chúng tôi lập BOM chuẩn theo mã máy (lọc/dầu/răng gầu/mỡ), ghép container theo quý giao kho đến kho; sau khi lỗi giảm rõ ràng, ký hợp đồng cung ứng theo năm.",
+    "metrics": {
+      "zh": [["采购成本", "-25%"], ["供应模式", "年度协议+季度柜"], ["机型覆盖", "8台全覆盖"]],
+      "vi": [["Chi phí thu mua", "-25%"], ["Mô hình", "hợp đồng năm + container quý"], ["Máy móc", "phủ đủ 8 máy"]]
+    },
+    "images": ["/images/cases/case-5.jpg"],
+    "date": "2026-05",
+    "scenario": ["autoparts"]
+  },
+  {
+    "id": "case-6",
+    "titleZh": "铝材厂 · 挤压车间耗材月度包",
+    "titleVi": "Nhà máy nhôm · Gói vật tư xưởng ép hàng tháng",
+    "profileZh": "客户：北宁铝材厂三车间 · 6 条挤压线",
+    "profileVi": "Khách hàng: Xưởng 3, nhà máy nhôm Bắc Ninh · 6 dây chuyền ép",
+    "descZh": "脱模剂、高温手套、锯片、三角带原先从四家供应商分散采购，每月对账繁琐还常断档。改为月度整包供货后：固定批次、固定日期到厂，附带验货照片与月度对账单，仓库再没为耗材停过线。",
+    "descVi": "Tách khuôn, găng chịu nhiệt, lưỡi cưa, dây curoa trước mua rải rác bốn nhà cung cấp, đối tháng phức tạp hay đứt hàng. Chuyển sang gói hàng tháng: lô cố định, ngày cố định tới xưởng, kèm ảnh kiểm hàng và bảng đối chiếu tháng — kho chưa bao giờ phải dừng chuyền vì vật tư.",
+    "metrics": {
+      "zh": [["采购耗时", "3天 → 0.5天/月"], ["供应商", "4家 → 1家"], ["断档", "0 次"]],
+      "vi": [["Thời gian thu mua", "3 → 0,5 ngày/tháng"], ["Nhà cung cấp", "4 → 1"], ["Đứt hàng", "0 lần"]]
+    },
+    "images": ["/images/cases/case-6.jpg"],
+    "date": "2026-04",
+    "scenario": ["aluminum"]
+  },
+  {
+    "id": "case-7",
+    "titleZh": "新厂筹建 · 备用发电机组配置",
+    "titleVi": "Nhà máy mới · Trang bị máy phát dự phòng",
+    "profileZh": "客户：北江新建电子厂 · 电压敏感车间",
+    "profileVi": "Khách hàng: Nhà máy điện tử mới tại Bắc Giang · xưởng nhạy dao động điện",
+    "descZh": "筹建期考虑北部电网波动，为一台潍柴 300kW 备用机组比价：中国出厂价约为本地代理七成，随机附配件包与中越双语资料，调试一次通过，与整厂开荒柜同批到厂。",
+    "descVi": "Giai đoạn khai trương lo điện lưới phía Bắc dao động, so giá một máy phát Weichai 300kW dự phòng: giá xuất xưởng Trung Quốc khoảng 70% đại lý nội địa, kèm gói phụ tùng và tài liệu song ngữ Trung – Việt, chạy thử đạt ngay lần đầu, về xưởng cùng container khai trương.",
+    "metrics": {
+      "zh": [["机组价格", "≈本地代理 70%"], ["调试", "一次通过"], ["交付", "与开荒柜同批"]],
+      "vi": [["Giá máy", "≈70% đại lý nội địa"], ["Chạy thử", "đạt ngay lần đầu"], ["Giao hàng", "cùng container khai trương"]]
+    },
+    "images": ["/images/cases/case-7.jpg"],
+    "date": "2026-03",
+    "scenario": ["new-plant"]
+  },
+  {
+    "id": "case-8",
+    "titleZh": "SMT 产线 · 钢网吸嘴月度套包",
+    "titleVi": "Dây chuyền SMT · Bộ stencil & nozzle hàng tháng",
+    "profileZh": "客户：北宁电子厂 · SMT 产线 5 条",
+    "profileVi": "Khách hàng: Nhà máy điện tử Bắc Ninh · 5 dây chuyền SMT",
+    "descZh": "钢网、吸嘴、擦拭纸原先分三家买，换线时总发现少件。现在按产线编号每月一套配齐，随包附清单和验货照片——换线再没为备件等过。",
+    "descVi": "Stencil, nozzle, giấy lau trước mua rải rác ba nơi, đổi line lúc nào cũng thiếu món này món kia. Giờ mỗi tháng một bộ theo số dây chuyền, kèm checklist và ảnh kiểm hàng — đổi line chưa bao giờ phải chờ đồ.",
+    "metrics": {
+      "zh": [["换线齐套率", "→ 100%"], ["采购成本", "-18%"], ["供应商", "3家 → 1家"]],
+      "vi": [["Đủ đồ đổi line", "→ 100%"], ["Chi phí", "-18%"], ["Nhà cung cấp", "3 → 1"]]
+    },
+    "images": ["/images/cases/case-8.jpg"],
+    "date": "2026-02",
+    "scenario": ["electronic"]
+  },
+  {
+    "id": "case-9",
+    "titleZh": "铝材厂 · 多孔挤压模具定制",
+    "titleVi": "Nhà máy nhôm · Khuôn ép đa lỗ đặt riêng",
+    "profileZh": "客户：铝材厂新上型材系列 · 定制 4 套多孔模",
+    "profileVi": "Khách hàng: Nhà máy nhôm mở dòng profile mới · đặt 4 bộ khuôn đa lỗ",
+    "descZh": "按客户图纸开 H13 多孔挤压模，出厂前氮化处理。下单到试模 25 天（本地开模通常 40 天起），试模一次通过，首批型材即达出货标准。",
+    "descVi": "Gia công khuôn ép đa lỗ thép H13 theo bản vẽ khách hàng, xử lý nitriding trước khi xuất xưởng. Từ đặt hàng tới thử khuôn 25 ngày (làm khuôn nội địa thường từ 40 ngày), thử khuôn đạt ngay lần đầu, lô profile đầu tiên đã đạt chuẩn xuất hàng.",
+    "metrics": {
+      "zh": [["开模周期", "本地40天+ → 25天"], ["试模", "一次通过"], ["模具材质", "H13 氮化处理"]],
+      "vi": [["Thời gian khuôn", "nội địa 40+ → 25 ngày"], ["Thử khuôn", "đạt lần đầu"], ["Vật liệu", "H13 + nitriding"]]
+    },
+    "images": ["/images/cases/case-9.jpg"],
+    "date": "2026-02",
+    "scenario": ["aluminum"]
+  },
+  {
+    "id": "case-10",
+    "titleZh": "新厂生活区 · 宿舍与办公家具整包",
+    "titleVi": "Khu sinh hoạt nhà máy mới · Nội thất ký túc & văn phòng",
+    "profileZh": "客户：河南工业区新厂 · 200 工人宿舍 + 2 层办公",
+    "profileVi": "Khách hàng: Nhà máy mới tại KCN Hà Nam · ký túc 200 công nhân + 2 tầng văn phòng",
+    "descZh": "200 工人宿舍的铁架床、储物柜，加上两层办公区的桌椅和厨房冰柜，合一个柜从中国直发——比本地分项采购省约 22%，装柜照片逐项留档验收。",
+    "descVi": "Giường sắt, tủ đồ cho ký túc 200 công nhân cùng bàn ghế văn phòng hai tầng và tủ lạnh bếp — gộp một container gửi thẳng từ Trung Quốc, rẻ hơn khoảng 22% so mua rời nội địa; ảnh xếp container lưu từng mục làm căn cứ nghiệm thu.",
+    "metrics": {
+      "zh": [["成本", "比本地分项 -22%"], ["物资", "一柜装齐"], ["验收", "装柜照片逐项"]],
+      "vi": [["Chi phí", "-22% so mua rời"], ["Vật tư", "một container đủ"], ["Nghiệm thu", "ảnh xếp container từng mục"]]
+    },
+    "images": ["/images/cases/case-10.jpg"],
+    "date": "2026-01",
+    "scenario": ["new-plant"]
+  },
+  {
+    "id": "case-11",
+    "titleZh": "潍柴机组 · 三万小时大修包",
+    "titleVi": "Máy phát Weichai · Gói đại tu 30.000 giờ",
+    "profileZh": "客户：隆安工厂 · 3 台潍柴备用机组",
+    "profileVi": "Khách hàng: Nhà máy Long An · 3 máy phát Weichai dự phòng",
+    "descZh": "三台机组同期进入三万小时大修，原渠道报价高、还要等 30 天。我们按机组编号配齐大修件：缸套、轴瓦、喷油器和三滤（机滤/柴滤/空滤），中国直发 12 天到厂，三台同期修完。",
+    "descVi": "Cả ba máy cùng vào đợt đại tu 30.000 giờ; kênh cũ giá cao, chờ 30 ngày. Chúng tôi giao đủ bộ theo số máy: xi lanh, bạc đạn, vòi phun và ba lọc (lọc dầu/lọc nhiên liệu/lọc gió), hàng Trung Quốc 12 ngày tới xưởng, cả ba hoàn thành cùng đợt.",
+    "metrics": {
+      "zh": [["大修成本", "-38%"], ["到货", "30天 → 12天"], ["机组", "3台同期完工"]],
+      "vi": [["Chi phí đại tu", "-38%"], ["Giao hàng", "30 → 12 ngày"], ["Máy phát", "3 máy cùng đợt"]]
+    },
+    "images": ["/images/cases/case-11.jpg"],
+    "date": "2025-12",
+    "scenario": ["autoparts"]
+  },
+  {
+    "id": "case-12",
+    "titleZh": "安江稻区 · 水泵与烘干设备整柜",
+    "titleVi": "Vùng lúa An Giang · Bơm diesel & máy sấy nguyên container",
+    "profileZh": "客户：安江合作社 · 40 户成员 · 双季稻",
+    "profileVi": "Khách hàng: HTX An Giang · 40 hội viên · 2 vụ lúa",
+    "descZh": "雨季抢收前，合作社要补 8 台 4 寸柴油水泵和 1 台 15 吨批式烘干机。本地代理报价高且交期 45 天起——赶不上这一季。我们直接对接中国泵厂与烘干机厂，按出河口的扬程参数选型，28 天整机到隆安港，随机附合格证与越文说明书，泵芯密封件备件同柜。",
+    "descVi": "Trước mùa gặt mưa, HTX cần bổ sung 8 máy bơm diesel 4 inch và 1 máy sấy tròn mẻ 15 tấn. Đại lý nội địa báo giá cao, giao từ 45 ngày — không kịp vụ. Chúng tôi làm thẳng với xưởng bơm và xưởng sấy Trung Quốc, chọn máy theo cột áp thực tế sông kênh; 28 ngày nguyên máy về cảng Long An, kèm chứng chỉ và tài liệu tiếng Việt, phụ kiện bơm dự phòng cùng container.",
+    "metrics": {
+      "zh": [["交期", "本地45天+ → 28天"], ["总价", "比本地代理 -20%"], ["到货", "雨季抢收前"]],
+      "vi": [["Giao hàng", "nội địa 45+ → 28 ngày"], ["Tổng giá", "-20% so đại lý"], ["Về tới", "trước mùa mưa gặt"]]
+    },
+    "images": ["/images/cases/case-12.jpg"],
+    "date": "2026-03",
+    "scenario": ["agriculture"]
+  },
+  {
+    "id": "case-13",
+    "titleZh": "平阳仓库 · 5000㎡ 环氧地坪与保温材料",
+    "titleVi": "Kho Bình Dương · Nền epoxy 5.000m² & panel bảo ôn",
+    "profileZh": "客户：平阳新租仓库 · 5000㎡ · 需两个月内投用",
+    "profileVi": "Khách hàng: Kho mới thuê Bình Dương · 5.000m² · phải đưa vào dùng trong 2 tháng",
+    "descZh": "新租的水泥地仓库要做环氧地坪、隔断保温和消防管防腐——三项找三个本地分包，报价高且工期排不开。我们从中国一柜配齐：环氧底中面涂、岩棉夹芯板、醇酸防锈漆，附施工配比与工艺卡；本地工人按图施工，材料成本比本地采购省 18%，工期压进倒计时。",
+    "descVi": "Kho bê tông mới thuê cần nền epoxy, vách bảo ôn và sơn chống gỉ đường ống PCCC — ba hạng mục ba thầu nội địa, giá cao lại không xếp được lịch. Chúng tôi gom một container từ Trung Quốc: epoxy lót–giữa–hoàn thiện, panel rockwool, sơn alkyd chống gỉ, kèm tỷ lệ pha và quy trình thi công; thợ nội địa làm theo tài liệu, vật liệu rẻ hơn 18% so mua trong nước, tiến độ gấp rút hoàn thành.",
+    "metrics": {
+      "zh": [["材料成本", "比本地 -18%"], ["供应", "三项一柜配齐"], ["工期", "压进60天倒计时"]],
+      "vi": [["Chi phí vật liệu", "-18% nội địa"], ["Nguồn cung", "3 hạng mục 1 container"], ["Tiến độ", "trong 60 ngày"]]
+    },
+    "images": ["/images/cases/case-13.jpg"],
+    "date": "2026-02",
+    "scenario": ["new-plant"]
+  },
+  {
+    "id": "case-14",
+    "titleZh": "河内配送团队 · 30 台电动两轮车整批",
+    "titleVi": "Đội giao Hà Nội · 30 xe máy điện nguyên lô",
+    "profileZh": "客户：河内即时配送团队 · 日均 600 单",
+    "profileVi": "Khách hàng: Đội giao hàng nhanh Hà Nội · 600 đơn/ngày",
+    "descZh": "配送团队扩张，本地车行 30 台要分三批提货还要加价。我们整车正贸进口 30 台踏板电动车，随批带 15 组备用电池与刹车易损件，15 天一次交付；比本地车行总价省 25%，合格证齐全配合上牌。",
+    "descVi": "Đội giao mở rộng; cửa hàng nội địa 30 xe phải chia ba đợt lấy và cộng giá. Chúng tôi nhập nguyên lô 30 xe tay ga điện chính ngạch, kèm 15 bộ ắc quy dự phòng và phụ tùng phanh, giao một lần trong 15 ngày; tổng giá rẻ hơn cửa hàng 25%, đủ chứng chỉ làm biển.",
+    "metrics": {
+      "zh": [["总价", "比本地车行 -25%"], ["交付", "15天一次性"], ["备件", "15组电池随批"]],
+      "vi": [["Tổng giá", "-25% so cửa hàng"], ["Giao", "15 ngày một đợt"], ["Dự phòng", "15 bộ ắc quy"]]
+    },
+    "images": ["/images/cases/case-14.jpg"],
+    "date": "2026-04",
+    "scenario": ["autoparts"]
+  }
+]

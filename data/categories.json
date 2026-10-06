@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "labor",
+    "group": "mro",
+    "nameZh": "劳保与安防",
+    "nameVi": "Thiết bị bảo hộ",
+    "descZh": "手套、防护服、安全鞋、口罩——高频刚需，按月复购",
+    "descVi": "Găng tay, quần áo bảo hộ, giày an toàn, khẩu trang — nhu cầu thường xuyên",
+    "subs": {
+      "zh": "手套 · 安全帽 · 护目镜 · 耳塞 · 安全鞋 · 工作服 · 反光衣",
+      "vi": "Găng tay · Mũ · Kính · Nút tai · Giày · Quần áo · Áo phản quang"
+    },
+    "hero": "/images/categories/labor.jpg",
+    "icon": "/images/products/labor-2.jpg"
+  },
+  {
+    "slug": "electric",
+    "group": "mro",
+    "nameZh": "电气与照明",
+    "nameVi": "Điện & chiếu sáng",
+    "descZh": "电缆、断路器、LED工矿灯、电工辅料",
+    "descVi": "Dây điện, aptomat, đèn LED nhà xưởng, phụ liệu điện",
+    "subs": {
+      "zh": "电缆电线 · 断路器 · 接触器 · 工矿灯 · 端子 · 电工胶带",
+      "vi": "Dây điện · Aptomat · Contactor · Đèn xưởng · Đầu nối · Băng keo điện"
+    },
+    "hero": "/images/categories/electric.jpg",
+    "icon": "/images/products/electric-3.jpg"
+  },
+  {
+    "slug": "chemical",
+    "group": "mro",
+    "nameZh": "化学品与润滑",
+    "nameVi": "Hóa chất & dầu nhớt",
+    "descZh": "脱模剂、清洗剂、润滑油脂——车间消耗品",
+    "descVi": "Tách khuôn, tẩy rửa, dầu mỡ công nghiệp — vật tư tiêu hao",
+    "subs": {
+      "zh": "脱模剂 · 清洗剂 · 润滑脂 · 液压油 · 导热膏 · 密封胶",
+      "vi": "Tách khuôn · Tẩy rửa · Mỡ · Dầu thủy lực · Keo dẫn nhiệt · Keo bịt"
+    },
+    "icon": "/images/icons/chemical.jpg"
+  },
+  {
+    "slug": "welding",
+    "group": "mro",
+    "nameZh": "焊接与磨料",
+    "nameVi": "Hàn & vật liệu mài",
+    "descZh": "焊丝焊条、砂轮片、切割片——机加工耗材",
+    "descVi": "Que, dây hàn, đá cắt, đá mài — vật tư tiêu hao gia công",
+    "subs": {
+      "zh": "焊丝 · 焊条 · 切割片 · 砂轮片 · 百叶轮 · 焊接防护",
+      "vi": "Dây hàn · Que hàn · Đá cắt · Đá mài · Đá lá · Mặt nạ hàn"
+    },
+    "icon": "/images/icons/welding.png"
+  },
+  {
+    "slug": "esd",
+    "group": "mro",
+    "nameZh": "防静电与无尘",
+    "nameVi": "Chống tĩnh điện & phòng sạch",
+    "descZh": "静电手套服、镊子、无尘擦拭——电子厂标配",
+    "descVi": "Găng tay, kẹp nhíp chống tĩnh điện, giấy lau phòng sạch",
+    "subs": {
+      "zh": "静电手套 · 防静电服 · 手腕带 · 镊子 · 无尘布 · 防静电地垫",
+      "vi": "Găng ESD · Quần áo ESD · Vòng tay · Kẹp nhíp · Khăn lau · Thảm ESD"
+    },
+    "icon": "/images/icons/esd.jpg"
+  },
+  {
+    "slug": "fastener",
+    "group": "mro",
+    "nameZh": "紧固件与标准件",
+    "nameVi": "Bu lông & chi tiết chuẩn",
+    "descZh": "螺栓、螺母、销、垫圈——国标/德标/英标按图代采",
+    "descVi": "Bu lông, ốc, chốt, vênh — theo GB/DIN/ANSI",
+    "subs": {
+      "zh": "螺栓 · 螺母 · 垫圈 · 销轴 · 膨胀螺栓 · 铆钉",
+      "vi": "Bu lông · Đai ốc · Vênh · Chốt · Bu lông nở · Tán rivit"
+    },
+    "icon": "/images/icons/fastener.png"
+  },
+  {
+    "slug": "facility",
+    "group": "mro",
+    "nameZh": "仓储与包装",
+    "nameVi": "Kho vận & bao bì",
+    "descZh": "周转箱、缠绕膜、胶带、清洁与登高设备",
+    "descVi": "Thùng chứa, màng quấn, băng keo, vệ sinh & thang",
+    "subs": {
+      "zh": "周转箱 · 缠绕膜 · 封箱胶带 · 清洁用品 · 铝梯 · 标签",
+      "vi": "Thùng chứa · Màng quấn · Băng keo · Vệ sinh · Thang nhôm · Nhãn"
+    },
+    "hero": "/images/categories/facility.jpg",
+    "icon": "/images/icons/facility.png"
+  },
+  {
+    "slug": "equipment",
+    "group": "equipment",
+    "nameZh": "设备与机械",
+    "nameVi": "Thiết bị & máy móc",
+    "descZh": "整机设备、产线机械、传动备件——中国源头工厂直采",
+    "descVi": "Máy móc thiết bị, phụ tùng truyền động — mua thẳng nhà máy nguồn",
+    "subs": {
+      "zh": "空压机 · 钻床 · 风机水泵 · 轴承 · 皮带 · 托辊 · 电机",
+      "vi": "Máy nén khí · Khoan bàn · Quạt & bơm · Vòng bi · Curoa · Con lăn · Motor"
+    },
+    "hero": "/images/categories/equipment.jpg",
+    "icon": "/images/icons/equipment.png"
+  },
+  {
+    "slug": "mold",
+    "group": "equipment",
+    "nameZh": "模具配件",
+    "nameVi": "Phụ tùng khuôn mẫu",
+    "descZh": "顶针、热流道、弹簧——挤压模/注塑模配件",
+    "descVi": "Đôi đẩy, hot runner, lò xo khuôn — phụ tùng khuôn",
+    "subs": {
+      "zh": "顶针 · 热流道 · 模具弹簧 · 日期章 · 锁模件 · 模脚",
+      "vi": "Đôi đẩy · Hot runner · Lò xo khuôn · Con dấu ngày · Khóa khuôn · Chân khuôn"
+    },
+    "icon": "/images/icons/mold.jpg"
+  },
+  {
+    "slug": "hydraul",
+    "group": "equipment",
+    "nameZh": "液压与气动",
+    "nameVi": "Thủy lực & khí nén",
+    "descZh": "油缸密封、电磁阀、气缸——按图号匹配",
+    "descVi": "Phớt xy lanh, van điện, xy lanh khí — đối chiếu theo mã",
+    "subs": {
+      "zh": "油封 · 电磁阀 · 气缸 · 油缸 · 接头 · 气管",
+      "vi": "Phớt · Van điện · Xy lanh khí · Xy lanh dầu · Đầu nối · Ống khí"
+    },
+    "icon": "/images/icons/hydraul.png"
+  },
+  {
+    "slug": "tools",
+    "group": "equipment",
+    "nameZh": "手动与电动工具",
+    "nameVi": "Dụng cụ cầm tay & điện",
+    "descZh": "扳手、螺丝刀、电钻、锤——维修必备",
+    "descVi": "Cờ lê, tuốc nơ vít, máy khoan, búa — bảo trì",
+    "subs": {
+      "zh": "扳手 · 螺丝刀 · 电钻 · 钳子 · 锤子 · 量具 · 刀具",
+      "vi": "Cờ lê · Tuốc nơ vít · Máy khoan · Kìm · Búa · Thước đo · Dao cắt"
+    },
+    "hero": "/images/categories/tools.jpg",
+    "icon": "/images/products/tools-2.jpg"
+  },
+  {
+    "slug": "vehicle",
+    "group": "auto",
+    "nameZh": "搬运与车辆配件",
+    "nameVi": "Nâng hạ & phụ tùng xe",
+    "descZh": "脚轮、地牛、叉车配件、吊装带",
+    "descVi": "Bánh xe đẩy, xe nâng tay, phụ tùng xe nâng, dây cẩu",
+    "subs": {
+      "zh": "脚轮 · 地牛 · 叉车配件 · 吊装带 · 登车桥 · 轮胎",
+      "vi": "Bánh xe · Xe nâng tay · Phụ tùng nâng · Dây cẩu · Cầu lên xe · Lốp"
+    },
+    "hero": "/images/categories/vehicle.jpg",
+    "icon": "/images/products/veh-2.jpg"
+  },
+  {
+    "slug": "autoparts",
+    "group": "auto",
+    "nameZh": "汽车配件",
+    "nameVi": "Phụ tùng ô tô",
+    "descZh": "东风系列易损件、发动机底盘件、滤芯油品——源头渠道直发",
+    "descVi": "Phụ tùng Dongfeng, động cơ, gầm xe, lọc & dầu — từ nguồn",
+    "subs": {
+      "zh": "东风易损件 · 发动机件 · 底盘件 · 滤芯 · 油品 · 电气件",
+      "vi": "Dongfeng hao mòn · Động cơ · Gầm xe · Lọc · Dầu nhớt · Điện ô tô"
+    },
+    "icon": "/images/icons/autoparts.jpg"
+  },
+  {
+    "slug": "agri",
+    "group": "equipment",
+    "nameZh": "农机与泵类",
+    "nameVi": "Nông máy & bơm",
+    "descZh": "柴油水泵、微耕机、烘干设备——农业生产源头直采",
+    "descVi": "Máy bơm diesel, máy cày mini, máy sấy — nông nghiệp giá gốc",
+    "subs": {
+      "zh": "柴油水泵 · 微耕机 · 谷物烘干 · 自吸泵 · 喷灌 · 农用电机",
+      "vi": "Bơm diesel · Máy cày mini · Sấy lúa · Bơm tự hút · Tưới phun · Điện nông nghiệp"
+    },
+    "icon": "/images/icons/agri.jpg"
+  },
+  {
+    "slug": "building",
+    "group": "equipment",
+    "nameZh": "建材与涂装",
+    "nameVi": "VLXD & sơn",
+    "descZh": "环氧地坪、保温材料、防腐涂料、涂装设备——厂房建设与维护",
+    "descVi": "Sơn epoxy, bảo ôn, sơn chống ăn mòn, thiết bị sơn — xây dựng & bảo trì nhà xưởng",
+    "subs": {
+      "zh": "环氧地坪漆 · 岩棉保温板 · 防腐涂料 · 防锈漆 · 涂装设备 · 密封胶",
+      "vi": "Sơn epoxy · Panel bảo ôn · Sơn chống ăn mòn · Sơn chống gỉ · Thiết bị sơn · Keo bịt"
+    },
+    "icon": "/images/icons/building.jpg"
+  },
+  {
+    "slug": "workwear",
+    "group": "mro",
+    "nameZh": "纺织与工装",
+    "nameVi": "Dệt may & đồng phục",
+    "descZh": "工作服定制、反光背心、劳保鞋——支持绣印logo",
+    "descVi": "May đồng phục, áo phản quang, giày bảo hộ — nhận thêu/in logo",
+    "subs": {
+      "zh": "工作服 · 反光背心 · 防滑劳保鞋 · 防割服 · 帽子 · 绣印定制",
+      "vi": "Đồng phục · Áo phản quang · Giày chống trượt · Quần chống cắt · Mũ · Thêu in logo"
+    },
+    "icon": "/images/icons/workwear.jpg"
+  },
+  {
+    "slug": "office",
+    "group": "mro",
+    "nameZh": "办公与后勤",
+    "nameVi": "Văn phòng & hậu cần",
+    "descZh": "食堂餐具、清洁用品、风扇家电、文具——工厂后勤一站配齐",
+    "descVi": "Bát đĩa căng tin, vệ sinh, quạt & gia dụng, văn phòng phẩm — hậu cần nhà xưởng",
+    "subs": {
+      "zh": "食堂餐具 · 清洁用品 · 落地风扇 · 家电 · 文具 · 日用杂品",
+      "vi": "Bát đĩa căng tin · Vệ sinh · Quạt đứng · Gia dụng · Văn phòng phẩm · Tạp hóa"
+    },
+    "icon": "/images/icons/office.jpg"
+  },
+  {
+    "slug": "evehicle",
+    "group": "auto",
+    "nameZh": "电动车与配件",
+    "nameVi": "Xe điện & phụ tùng",
+    "descZh": "电动两轮/三轮整车与电池配件——配送车队批量采购",
+    "descVi": "Xe điện 2/3 bánh nguyên xe & ắc quy phụ tùng — mua theo đội xe",
+    "subs": {
+      "zh": "电动两轮 · 电动三轮 · 电池组 · 充电器 · 头盔 · 易损件",
+      "vi": "Xe 2 bánh điện · Xe 3 bánh điện · Ắc quy · Bộ sạc · Mũ bảo hiểm · Phụ tùng"
+    },
+    "icon": "/images/icons/evehicle.jpg"
+  }
+]

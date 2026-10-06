@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "labor-001",
+    "category": "labor",
+    "nameZh": "防割手套 五级防割",
+    "nameVi": "Găng tay chống cắt cấp 5",
+    "brand": "XX",
+    "model": "HD-5",
+    "images": ["/images/products/labor-1.jpg"],
+    "params": [
+      { "kZh": "防割等级", "kVi": "Cấp chống cắt", "vZh": "EN388 5级", "vVi": "EN388 cấp 5" },
+      { "kZh": "涂层", "kVi": "Lớp phủ", "vZh": "丁腈磨砂", "vVi": "Nitrile nhám" },
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "12双/打", "vVi": "12 đôi/lô" }
+    ],
+    "introZh": "防割手套是机加工、铝材挤压、玻璃搬运等场景的高频劳保消耗品，EN388 5级为目前主流最高防割等级。",
+    "introVi": "Găng tay chống cắt là vật tư bảo hộ tiêu hao tần suất cao trong gia công kim loại, ép nhôm, vận chuyển kính; EN388 cấp 5 là cấp chống cắt phổ thông cao nhất hiện nay.",
+    "faq": [
+      { "qZh": "起订量是多少？", "qVi": "Số lượng đặt tối thiểu?", "aZh": "整打起订（12双），月度复购可议价。", "aVi": "Đặt theo lô (12 đôi), mua lại hàng tháng có thể thương lượng giá." },
+      { "qZh": "可以印logo吗？", "qVi": "Có in logo được không?", "aZh": "可以，需达到一定数量，拍照询价时注明。", "aVi": "Được, cần số lượng tối thiểu, ghi rõ khi gửi yêu cầu." }
+    ],
+    "featured": true,
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "labor-002",
+    "category": "labor",
+    "nameZh": "安全帽 ABS材质",
+    "nameVi": "Mũ bảo hộ ABS",
+    "brand": "XX",
+    "model": "AB-01",
+    "images": ["/images/products/labor-2.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "ABS工程塑料", "vVi": "Nhựa kỹ thuật ABS" },
+      { "kZh": "标准", "kVi": "Tiêu chuẩn", "vZh": "EN 397", "vVi": "EN 397" },
+      { "kZh": "颜色", "kVi": "Màu sắc", "vZh": "白/黄/红/蓝", "vVi": "Trắng/vàng/đỏ/xanh" }
+    ],
+    "introZh": "ABS安全帽重量轻、抗冲击好，是工厂进厂标配；支持丝印企业logo。",
+    "introVi": "Mũ bảo hộ ABS nhẹ và chịu va đập tốt, là trang bị bắt buộc khi vào nhà máy; hỗ trợ in logo doanh nghiệp.",
+    "faq": [
+      { "qZh": "货期一般多久？", "qVi": "Thời gian giao hàng?", "aZh": "常规件中国集货后7-15天到越南，急件可空运。", "aVi": "Hàng thường 7–15 ngày sau khi gom tại Trung Quốc; hàng gấp có thể bay." }
+    ],
+    "featured": true,
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "labor-003",
+    "category": "labor",
+    "nameZh": "防护眼镜 防雾防冲击",
+    "nameVi": "Kính bảo hộ chống sương chống va đập",
+    "images": ["/images/products/labor-3.jpg"],
+    "params": [
+      { "kZh": "镜片", "kVi": "Tròng kính", "vZh": "PC防雾镀膜", "vVi": "PC phủ chống sương" },
+      { "kZh": "标准", "kVi": "Tiêu chuẩn", "vZh": "EN166", "vVi": "EN166" }
+    ],
+    "introZh": "机加工与化工厂常用的防雾护目镜，直接压在近视镜外佩戴。",
+    "introVi": "Kính bảo hộ chống sương dùng phổ biến trong gia công kim loại và hóa chất, đeo bên ngoài kính cận được.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "labor-004",
+    "category": "labor",
+    "nameZh": "泡棉耳塞 SNR 32dB",
+    "nameVi": "Nút tai foam SNR 32dB",
+    "images": ["/images/products/labor-4.jpg"],
+    "params": [
+      { "kZh": "降噪", "kVi": "Giảm ồn", "vZh": "SNR 32dB", "vVi": "SNR 32dB" },
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "200副/盒", "vVi": "200 đôi/hộp" }
+    ],
+    "introZh": "慢回弹泡棉耳塞，挤压后塞入耳道膨胀贴合，适合挤压车间、发电机房等高噪环境。",
+    "introVi": "Nút tai foam nhớ hình, bóp nhỏ đưa vào tai rồi nở ra ôm khít, phù hợp xưởng ép, phòng máy phát điện.",
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "labor-005",
+    "category": "labor",
+    "nameZh": "丁腈一次性手套",
+    "nameVi": "Găng tay Nitrile dùng một lần",
+    "images": ["/images/products/labor-5.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "丁腈", "vVi": "Nitrile" },
+      { "kZh": "尺寸", "kVi": "Kích cỡ", "vZh": "S/M/L/XL", "vVi": "S/M/L/XL" },
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "100只/盒", "vVi": "100 chiếc/hộp" }
+    ],
+    "introZh": "耐油耐溶剂的一次性丁腈手套，电子厂、食品厂、质检工位按箱复购。",
+    "introVi": "Găng Nitrile chống dầu và dung môi, nhà máy điện tử, thực phẩm, khâu QC mua lại theo thùng.",
+    "scenario": ["electronic"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "tools-001",
+    "category": "tools",
+    "nameZh": "十字螺丝刀套装 6件",
+    "nameVi": "Bộ tuốc nơ vít đầu tháp 6 món",
+    "images": ["/images/products/tools-1.jpg"],
+    "params": [
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "PH0-PH3", "vVi": "PH0-PH3" },
+      { "kZh": "刀头材质", "kVi": "Chất liệu", "vZh": "铬钒钢", "vVi": "Thép Cr-V" }
+    ],
+    "introZh": "铬钒钢刀杆+防滑手柄的十字批套装，维修工位与产线标配。",
+    "introVi": "Bộ tuốc nơ vít đầu tháp cán thép Cr-V, trang bị chuẩn cho vị trí bảo trì và dây chuyền.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "tools-002",
+    "category": "tools",
+    "nameZh": "两用扳手 8-24mm",
+    "nameVi": "Cờ lê hai đầu 8-24mm",
+    "images": ["/images/products/tools-2.jpg"],
+    "params": [
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "8-24mm 8件", "vVi": "8-24mm 8 món" },
+      { "kZh": "表面", "kVi": "Bề mặt", "vZh": "全抛光镀铬", "vVi": "Tiêu chromium bóng" }
+    ],
+    "introZh": "一面开口一面梅花的两用扳手，机修与模具装配的通用工具。",
+    "introVi": "Cờ lê một đầu mở một đầu closed, dụng cụ phổ dụng cho sửa máy và lắp khuôn.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "tools-003",
+    "category": "tools",
+    "nameZh": "钢丝钳 绝缘1000V",
+    "nameVi": "Kìm kềm cách điện 1000V",
+    "images": ["/images/products/tools-3.jpg"],
+    "params": [
+      { "kZh": "耐压", "kVi": "Chịu điện", "vZh": "1000V 绝缘柄", "vVi": "Cán cách điện 1000V" },
+      { "kZh": "长度", "kVi": "Chiều dài", "vZh": "200mm", "vVi": "200mm" }
+    ],
+    "introZh": "电工专用绝缘钢丝钳，VDE标准手柄，配电柜检修必备。",
+    "introVi": "Kìm kềm cách điện dành cho thợ điện, cán theo chuẩn VDE, bắt buộc khi sửa tủ điện.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "tools-004",
+    "category": "tools",
+    "nameZh": "冲击电钻 850W",
+    "nameVi": "Máy khoan búa 850W",
+    "images": ["/images/products/tools-4.jpg"],
+    "params": [
+      { "kZh": "功率", "kVi": "Công suất", "vZh": "850W", "vVi": "850W" },
+      { "kZh": "钻夹头", "kVi": "Ốc cầm", "vZh": "13mm", "vVi": "13mm" }
+    ],
+    "introZh": "混凝土与钢结构打孔的冲击电钻，工厂安装支架、布线管常用。",
+    "introVi": "Máy khoan búa cho bê tông và kết cấu thép, thường dùng lắp giá, đi ống dây trong nhà máy.",
+    "faq": [
+      { "qZh": "电压是220V吗？", "qVi": "Điện áp có phải 220V?", "aZh": "中国220V/50Hz与越南通用，无需转换。", "aVi": "220V/50Hz giống Việt Nam, không cần chuyển đổi." }
+    ],
+    "featured": true,
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "tools-005",
+    "category": "tools",
+    "nameZh": "羊角锤 0.8kg 玻纤柄",
+    "nameVi": "Búa đề pa 0.8kg cán sợi thủy tinh",
+    "images": ["/images/products/tools-5.jpg"],
+    "params": [
+      { "kZh": "重量", "kVi": "Trọng lượng", "vZh": "0.8kg", "vVi": "0.8kg" },
+      { "kZh": "手柄", "kVi": "Cán", "vZh": "玻璃钢包胶", "vVi": "Sợi thủy tinh bọc nhựa" }
+    ],
+    "introZh": "敲击与起钉两用的羊角锤，减震玻纤柄适合长时间作业。",
+    "introVi": "Búa vừa đập vừa nhổ đinh, cán sợi thủy tinh giảm rung cho thao tác lâu.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "electric-001",
+    "category": "electric",
+    "nameZh": "铜芯电缆 BV 2.5mm²",
+    "nameVi": "Dây điện đồng BV 2.5mm²",
+    "images": ["/images/products/electric-1.jpg"],
+    "params": [
+      { "kZh": "芯数", "kVi": "Số lõi", "vZh": "单芯", "vVi": "1 lõi" },
+      { "kZh": "截面", "kVi": "Tiết diện", "vZh": "2.5mm²", "vVi": "2.5mm²" },
+      { "kZh": "电压", "kVi": "Điện áp", "vZh": "450/750V", "vVi": "450/750V" }
+    ],
+    "introZh": "BV单芯铜线是车间布线与照明回路的基础线材，中国国标与越南IEC体系兼容。",
+    "introVi": "Dây đồng 1 lõi BV là vật tư cơ bản cho đi dây nhà xưởng và mạch chiếu sáng, chuẩn Trung Quốc tương thích IEC của Việt Nam.",
+    "featured": true,
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "electric-002",
+    "category": "electric",
+    "nameZh": "断路器 3P 63A",
+    "nameVi": "Áptômát 3P 63A",
+    "images": ["/images/products/electric-2.jpg"],
+    "params": [
+      { "kZh": "极数", "kVi": "Số cực", "vZh": "3P", "vVi": "3P" },
+      { "kZh": "额定电流", "kVi": "Dòng định mức", "vZh": "63A", "vVi": "63A" }
+    ],
+    "introZh": "三相设备与配电柜总闸常用的塑壳/微型断路器，可按品牌与曲线定制。",
+    "introVi": "Áptômát thường dùng cho tổng máy 3 pha và tủ điện, đặt theo thương hiệu và đường cong bảo vệ.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "electric-003",
+    "category": "electric",
+    "nameZh": "LED工矿灯 100W IP65",
+    "nameVi": "Đèn LED nhà xưởng 100W IP65",
+    "images": ["/images/products/electric-3.jpg"],
+    "params": [
+      { "kZh": "功率", "kVi": "Công suất", "vZh": "100W", "vVi": "100W" },
+      { "kZh": "防护", "kVi": "Chống nước", "vZh": "IP65", "vVi": "IP65" },
+      { "kZh": "光通量", "kVi": "Quang thông", "vZh": "约13000lm", "vVi": "~13000lm" }
+    ],
+    "introZh": "UFO工矿灯是厂房照明的主力灯具，100W可覆盖约50㎡车间区域。",
+    "introVi": "Đèn LED dạng UFO là chủ lực chiếu sáng nhà xưởng, 100W phủ khoảng 50m² xưởng.",
+    "faq": [
+      { "qZh": "质保多久？", "qVi": "Bảo hành bao lâu?", "aZh": "通常3年质保，以报价单为准。", "aVi": "Thường bảo hành 3 năm, theo báo giá." }
+    ],
+    "featured": true,
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "electric-004",
+    "category": "electric",
+    "nameZh": "接线盒 明装防水",
+    "nameVi": "Hộp đấu nối điện gắn ngoài",
+    "images": ["/images/products/electric-4.jpg"],
+    "params": [
+      { "kZh": "防护", "kVi": "Chống nước", "vZh": "IP55", "vVi": "IP55" },
+      { "kZh": "尺寸", "kVi": "Kích thước", "vZh": "多种可选", "vVi": "Nhiều size" }
+    ],
+    "introZh": "线缆分支与接头的保护盒，车间设备改造常备辅材。",
+    "introVi": "Hộp bảo vệ mạch nhánh và đầu nối, vật tư thường dùng khi cải tạo thiết bị nhà xưởng.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "electric-005",
+    "category": "electric",
+    "nameZh": "尼龙扎带 4.8×300mm",
+    "nameVi": "Dây buộc nhựa 4.8×300mm",
+    "images": ["/images/products/electric-5.jpg"],
+    "params": [
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "4.8×300mm", "vVi": "4.8×300mm" },
+      { "kZh": "拉力", "kVi": "Lực kéo", "vZh": "约18kg", "vVi": "~18kg" },
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "100根/包", "vVi": "100 cái/gói" }
+    ],
+    "introZh": "理线扎带是电工与装配工位的月度消耗品，按包复购。",
+    "introVi": "Dây buộc nhựa là vật tư tiêu hao hàng tháng của thợ điện và vị trí lắp ráp.",
+    "scenario": ["electronic"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "equip-001",
+    "category": "equipment",
+    "nameZh": "深沟球轴承 6205",
+    "nameVi": "Vòng bi cầu sâu 6205",
+    "images": ["/images/products/equip-1.jpg"],
+    "params": [
+      { "kZh": "内径", "kVi": "Đường kính trong", "vZh": "25mm", "vVi": "25mm" },
+      { "kZh": "型号", "kVi": "Mã", "vZh": "6205-2RS", "vVi": "6205-2RS" }
+    ],
+    "introZh": "深沟球轴承是电机、风机、输送设备最通用的备件型号，拍照铭牌即可匹配。",
+    "introVi": "Vòng bi cầu sâu là phụ tùng phổ dụng nhất cho motor, quạt, thiết bị vận chuyển; chụp ảnh tem mã là đối chiếu được.",
+    "featured": true,
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "equip-002",
+    "category": "equipment",
+    "nameZh": "三角带 SPB系列",
+    "nameVi": "Dây curoa chữ V SPB",
+    "images": ["/images/products/equip-2.jpg"],
+    "params": [
+      { "kZh": "截面", "kVi": "Tiết diện", "vZh": "SPB", "vVi": "SPB" },
+      { "kZh": "长度", "kVi": "Chiều dài", "vZh": "按型号", "vVi": "Theo mã" }
+    ],
+    "introZh": "三角带是风机、锯机、搅拌机的传动易损件，按带身印字型号下单。",
+    "introVi": "Dây curoa chữ V là phụ tùng hao mòn của quạt, máy cưa, máy trộn; đặt hàng theo mã in trên dây.",
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "equip-003",
+    "category": "equipment",
+    "nameZh": "输送托辊 φ89",
+    "nameVi": "Con lăn băng tải φ89",
+    "images": ["/images/products/equip-3.jpg"],
+    "params": [
+      { "kZh": "直径", "kVi": "Đường kính", "vZh": "φ89mm", "vVi": "φ89mm" },
+      { "kZh": "长度", "kVi": "Chiều dài", "vZh": "按带宽定制", "vVi": "Theo băng" }
+    ],
+    "introZh": "输送线托辊按带宽与轴径定制，铝材厂出料输送带的常备备件。",
+    "introVi": "Con lăn băng tải đặt theo bề rộng băng và trục; phụ tùng thường trữ cho băng tải xuất phôi nhà máy nhôm.",
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "equip-004",
+    "category": "equipment",
+    "nameZh": "热电偶 K型 带补偿导线",
+    "nameVi": "Nhiệt điện cặp loại K có dây bù",
+    "images": ["/images/products/equip-4.jpg"],
+    "params": [
+      { "kZh": "分度号", "kVi": "Loại", "vZh": "K型", "vVi": "Loại K" },
+      { "kZh": "测温范围", "kVi": "Dải đo", "vZh": "0-1100℃", "vVi": "0-1100℃" }
+    ],
+    "introZh": "K型热电偶是挤压机模具区与加热炉的测控温核心配件，规格按保护管长度与螺纹定制。",
+    "introVi": "Nhiệt điện cặp loại K là phụ tùng đo nhiệt cốt lõi của khu khuôn máy ép và lò nung; quy cách theo chiều dài ống bảo vệ và ren.",
+    "faq": [
+      { "qZh": "能不能配对现有温控表？", "qVi": "Có khớp bộ điều nhiệt hiện tại không?", "aZh": "可以，提供温控表型号或拍照接线端子即可匹配。", "aVi": "Được, cung cấp mã bộ điều nhiệt hoặc chụp ảnh cắm dây là khớp được." }
+    ],
+    "featured": true,
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "equip-005",
+    "category": "equipment",
+    "nameZh": "液压油管接头系列",
+    "nameVi": "Đầu nối ống thủy lực",
+    "images": ["/images/products/equip-5.jpg"],
+    "params": [
+      { "kZh": "类型", "kVi": "Loại", "vZh": "卡套/法兰/O型圈", "vVi": "Co ép/bích/O-ring" },
+      { "kZh": "定制", "kVi": "Đặt riêng", "vZh": "按图号或样品", "vVi": "Theo bản vẽ hoặc mẫu" }
+    ],
+    "introZh": "液压接头按图号或实物样品匹配下单，避免停机等件。",
+    "introVi": "Đầu nối thủy lực đặt theo bản vẽ hoặc mẫu thật, tránh máy dừng chờ phụ tùng.",
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "faci-001",
+    "category": "facility",
+    "nameZh": "零件周转箱 插接式",
+    "nameVi": "Thùng đựng linh kiện xếp chồng",
+    "images": ["/images/products/faci-1.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "PP塑料", "vVi": "Nhựa PP" },
+      { "kZh": "堆叠", "kVi": "Xếp chồng", "vZh": "可堆叠", "vVi": "Được" }
+    ],
+    "introZh": "车间物料与半成品的周转容器，防静电版本适合电子厂。",
+    "introVi": "Thùng chứa vật liệu và bán thành phẩm trong xưởng, bản chống tĩnh điện dành cho nhà máy điện tử.",
+    "scenario": ["electronic", "new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "faci-002",
+    "category": "facility",
+    "nameZh": "缠绕膜 50cm×300m",
+    "nameVi": "Màng quấn pallet 50cm×300m",
+    "images": ["/images/products/faci-2.jpg"],
+    "params": [
+      { "kZh": "宽度", "kVi": "Bề rộng", "vZh": "50cm", "vVi": "50cm" },
+      { "kZh": "厚度", "kVi": "Độ dày", "vZh": "20μm", "vVi": "20μm" }
+    ],
+    "introZh": "出货打托的缠绕膜是仓储月度耗材，成卷采购价差明显。",
+    "introVi": "Màng quấn pallet là vật tư hàng tháng của kho; giá mua theo cuộn chênh lệch rõ.",
+    "featured": true,
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "faci-003",
+    "category": "facility",
+    "nameZh": "封箱胶带 48mm",
+    "nameVi": "Băng keo đóng thùng 48mm",
+    "images": ["/images/products/faci-3.jpg"],
+    "params": [
+      { "kZh": "宽度", "kVi": "Bề rộng", "vZh": "48mm", "vVi": "48mm" },
+      { "kZh": "长度", "kVi": "Chiều dài", "vZh": "100码/卷", "vVi": "100 yard/cuộn" }
+    ],
+    "introZh": "透明与米黄封箱胶带按箱采购，可印字定制。",
+    "introVi": "Băng keo trong và vàng đất mua theo thùng, có thể in chữ theo yêu cầu.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "faci-004",
+    "category": "facility",
+    "nameZh": "铝合金折叠梯",
+    "nameVi": "Thang nhôm gấp",
+    "images": ["/images/products/faci-4.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "铝合金", "vVi": "Nhôm" },
+      { "kZh": "高度", "kVi": "Chiều cao", "vZh": "多规格", "vVi": "Nhiều loại" }
+    ],
+    "introZh": "仓库与设备区登高作业的铝合金梯，轻便防腐。",
+    "introVi": "Thang nhôm cho thao tác trên cao ở kho và khu thiết bị, nhẹ và chống ăn mòn.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "faci-005",
+    "category": "facility",
+    "nameZh": "车间清洁推车",
+    "nameVi": "Xe đẩy vệ sinh nhà xưởng",
+    "images": ["/images/products/faci-5.jpg"],
+    "params": [
+      { "kZh": "配置", "kVi": "Cấu hình", "vZh": "双桶+垃圾袋架", "vVi": "2 thùng + khung túi" }
+    ],
+    "introZh": "5S现场管理的清洁推车，配颜色分区抹布桶。",
+    "introVi": "Xe đẩy vệ sinh cho quản lý 5S, kèm thùng phân vùng màu cho khăn lau.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "veh-001",
+    "category": "vehicle",
+    "nameZh": "重型脚轮 φ150 带刹",
+    "nameVi": "Bánh xe đẩy nặng φ150 có phanh",
+    "images": ["/images/products/veh-1.jpg"],
+    "params": [
+      { "kZh": "轮径", "kVi": "Đường kính", "vZh": "150mm", "vVi": "150mm" },
+      { "kZh": "单轮承重", "kVi": "Tải 1 bánh", "vZh": "约200kg", "vVi": "~200kg" }
+    ],
+    "introZh": "重载脚轮用于工装车与料架，铁芯聚氨酯轮耐冲击不掉胶。",
+    "introVi": "Bánh xe tải nặng cho xe đẩy dụng cụ và kệ vật liệu; lõi sắt bọc PU chịu va đập không bong.",
+    "featured": true,
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "veh-002",
+    "category": "vehicle",
+    "nameZh": "地牛液压搬运车 2.5T",
+    "nameVi": "Xe nâng tay thủy lực 2.5T",
+    "images": ["/images/products/veh-2.jpg"],
+    "params": [
+      { "kZh": "额定载荷", "kVi": "Tải trọng", "vZh": "2.5T", "vVi": "2.5 tấn" },
+      { "kZh": "货叉宽", "kVi": "Bề rộng càng", "vZh": "550/685mm", "vVi": "550/685mm" }
+    ],
+    "introZh": "手动液压搬运车是仓储收发货的基础设备，油封与轮子属易损件可单独配。",
+    "introVi": "Xe nâng tay là thiết bị cơ bản của kho; phớt dầu và bánh xe hỏng có thể đặt riêng.",
+    "featured": true,
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "veh-003",
+    "category": "vehicle",
+    "nameZh": "叉车实心轮胎",
+    "nameVi": "Lốp xe nâng đặc",
+    "images": ["/images/products/veh-3.jpg"],
+    "params": [
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "28×9-15等", "vVi": "28×9-15 v.v." },
+      { "kZh": "类型", "kVi": "Loại", "vZh": "实心压配", "vVi": "Đặc ép" }
+    ],
+    "introZh": "实心胎免爆胎维护，适合高频进出货的场内叉车，按胎侧钢圈规格下单。",
+    "introVi": "Lốp đặc không lo nổ, phù hợp xe nâng tần suất cao; đặt theo quy cách vành thép in trên lốp.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "veh-004",
+    "category": "vehicle",
+    "nameZh": "吊装带 3吨×2米",
+    "nameVi": "Dây cẩu hàng 3 tấn×2m",
+    "images": ["/images/products/veh-4.jpg"],
+    "params": [
+      { "kZh": "额定载荷", "kVi": "Tải trọng", "vZh": "3T(环形)", "vVi": "3 tấn" },
+      { "kZh": "长度", "kVi": "Chiều dài", "vZh": "2m", "vVi": "2m" }
+    ],
+    "introZh": "彩色扁平吊装带比钢丝绳更护货，按吨位色标管理。",
+    "introVi": "Dây cẩu dải màu bảo vệ hàng tốt hơn dây thép, quản lý theo màu tải trọng.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "veh-005",
+    "category": "vehicle",
+    "nameZh": "橡胶挡车器",
+    "nameVi": "Chèn bánh xe cao su",
+    "images": ["/images/products/veh-5.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "再生橡胶", "vVi": "Cao su tái chế" },
+      { "kZh": "安装", "kVi": "Lắp đặt", "vZh": "膨胀螺栓固定", "vVi": "Bắt bu lông nở" }
+    ],
+    "introZh": "装卸月台与厂区车位的止滑定位件，保护墙体与车门。",
+    "introVi": "Vật định vị xe ở bậc lên xuống và bãi đỗ, bảo vệ tường và cửa xe.",
+    "scenario": [],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "fastener-001",
+    "category": "fastener",
+    "nameZh": "外六角螺栓 8.8级 镀锌",
+    "nameVi": "Bu lông lục giác cấp 8.8 mạ kẽm",
+    "images": ["/images/products/fastener-001.jpg"],
+    "params": [
+      { "kZh": "强度等级", "kVi": "Cấp bền", "vZh": "8.8级", "vVi": "8.8" },
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "M6-M24", "vVi": "M6-M24" },
+      { "kZh": "表面处理", "kVi": "Xử lý bề mặt", "vZh": "热镀锌/发黑", "vVi": "Mạ kẽm nóng/đen" }
+    ],
+    "introZh": "8.8级镀锌螺栓是钢结构和设备安装的通用紧固件，国标GB/DIN/英标均可按图代采。",
+    "introVi": "Bu lông mạ kẽm cấp 8.8 là chi tiết lắp dựng phổ dụng cho kết cấu thép và thiết bị; đặt theo GB/DIN/ANSI.",
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "fastener-002",
+    "category": "fastener",
+    "nameZh": "内六角圆柱头螺钉 12.9级",
+    "nameVi": "Vít lục giác chìm đầu tròn cấp 12.9",
+    "images": ["/images/products/fastener-002.jpg"],
+    "params": [
+      { "kZh": "强度等级", "kVi": "Cấp bền", "vZh": "12.9级", "vVi": "12.9" },
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "M3-M16", "vVi": "M3-M16" }
+    ],
+    "introZh": "12.9级内六角螺钉用于模具与机械高强连接，按盒或按公斤采购。",
+    "introVi": "Vít lục giác cấp 12.9 dùng cho liên kết cường độ cao trong khuôn và máy móc.",
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "fastener-003",
+    "category": "fastener",
+    "nameZh": "不锈钢螺母 DIN934",
+    "nameVi": "Đai ốc inox DIN934",
+    "images": ["/images/products/fastener-003.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "304不锈钢", "vVi": "Inox 304" },
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "M4-M20", "vVi": "M4-M20" }
+    ],
+    "introZh": "DIN934六角螺母与螺栓配套使用，304材质防锈适合潮湿车间。",
+    "introVi": "Đai ốc lục giác DIN934 đi cặp với bu lông; inox 304 chống gỉ cho xưởng ẩm.",
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "mold-001",
+    "category": "mold",
+    "nameZh": "模具顶针 SKD61",
+    "nameVi": "Đôi đẩy khuôn SKD61",
+    "images": ["/images/products/mold-001.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "SKD61", "vVi": "SKD61" },
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "φ2-φ8mm", "vVi": "φ2-φ8mm" }
+    ],
+    "introZh": "顶针是挤压模和注塑模的消耗件，SKD61耐高温不易弯折，按图纸长度定制。",
+    "introVi": "Đôi đẩy là chi tiết hao mòn của khuôn ép và khuôn nhựa; SKD61 chịu nhiệt, ít cong, cắt theo chiều dài bản vẽ.",
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "mold-002",
+    "category": "mold",
+    "nameZh": "模具氮气弹簧",
+    "nameVi": "Lò xo khí nitơ khuôn",
+    "images": ["/images/products/mold-002.jpg"],
+    "params": [
+      { "kZh": "类型", "kVi": "Loại", "vZh": "独立式氮气弹簧", "vVi": "Lò xo khí độc lập" },
+      { "kZh": "行程", "kVi": "Hành trình", "vZh": "50-100mm", "vVi": "50-100mm" }
+    ],
+    "introZh": "氮气弹簧替代普通矩形弹簧，顶出力稳定寿命长，提供规格照片即可匹配。",
+    "introVi": "Lò xo khí thay lò xo thường với lực đẩy ổn định, tuổi thọ cao; gửi ảnh quy cách là khớp được.",
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "hydraul-001",
+    "category": "hydraul",
+    "nameZh": "液压油封 组合密封",
+    "nameVi": "Phớt dầu thủy lực",
+    "images": ["/images/products/hydraul-001.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "NBR/氟橡胶", "vVi": "NBR/FKM" },
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "按轴径/缸径", "vVi": "Theo trục/xy lanh" }
+    ],
+    "introZh": "油缸密封件按轴径与槽型匹配下单，拍旧件照片即可对型。",
+    "introVi": "Phớt xy lanh đối chiếu theo đường kính trục và rãnh; chụp ảnh chiếc cũ là ra đúng mã.",
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "hydraul-002",
+    "category": "hydraul",
+    "nameZh": "气动电磁阀 4V210",
+    "nameVi": "Van điện từ khí nén 4V210",
+    "images": ["/images/products/hydraul-002.jpg"],
+    "params": [
+      { "kZh": "电压", "kVi": "Điện áp", "vZh": "DC24V / AC220V", "vVi": "DC24V / AC220V" },
+      { "kZh": "接口", "kVi": "Cổng", "vZh": "1/4寸 双电控", "vVi": "1/4 inch, 2 điện" }
+    ],
+    "introZh": "4V210是自动化产线最常用的气动换向阀，与气缸配套供货。",
+    "introVi": "4V210 là van đổi hướng khí phổ dụng nhất trên dây chuyền tự động, giao kèm xy lanh.",
+    "scenario": ["electronic"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "hydraul-003",
+    "category": "hydraul",
+    "nameZh": "薄型气缸 SDA系列",
+    "nameVi": "Xy lanh khí loại mỏng SDA",
+    "images": ["/images/products/hydraul-003.jpg"],
+    "params": [
+      { "kZh": "缸径", "kVi": "Đường kính", "vZh": "φ20-φ63", "vVi": "φ20-φ63" },
+      { "kZh": "行程", "kVi": "Hành trình", "vZh": "10-100mm", "vVi": "10-100mm" }
+    ],
+    "introZh": "SDA薄型气缸节省安装空间，夹具与治具上用量大，可带磁性开关。",
+    "introVi": "Xy lanh mỏng SDA tiết kiệm không gian lắp, dùng nhiều trên đồ gá; có thể kèm công tắc từ.",
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "chemical-001",
+    "category": "chemical",
+    "nameZh": "脱模剂 喷雾型",
+    "nameVi": "Tách khuôn dạng xịt",
+    "images": ["/images/products/chemical-001.jpg"],
+    "params": [
+      { "kZh": "容量", "kVi": "Dung tích", "vZh": "450ml/罐", "vVi": "450ml/chai" },
+      { "kZh": "类型", "kVi": "Loại", "vZh": "硅油型 无色无味", "vVi": "Dầu silicone" }
+    ],
+    "introZh": "挤压和注塑车间的常备耗材，成箱采购价差明显。",
+    "introVi": "Vật tư thường trực của xưởng ép và ép nhựa; mua nguyên thùng giá tốt hơn hẳn.",
+    "scenario": ["aluminum"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "chemical-002",
+    "category": "chemical",
+    "nameZh": "锂基润滑脂",
+    "nameVi": "Mỡ bôi trơn lithi",
+    "images": ["/images/products/chemical-002.jpg"],
+    "params": [
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "1kg/罐", "vVi": "1kg/hộp" },
+      { "kZh": "用途", "kVi": "Ứng dụng", "vZh": "轴承/滑轨通用", "vVi": "Vòng bi, ray trượt" }
+    ],
+    "introZh": "通用锂基脂用于轴承与导轨润滑，按箱复购的基础耗材。",
+    "introVi": "Mỡ lithi dùng bôi trơn vòng bi và ray dẫn hướng; vật tư cơ bản mua lại theo thùng.",
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "esd-001",
+    "category": "esd",
+    "nameZh": "防静电手套 PU涂指",
+    "nameVi": "Găng tay chống tĩnh điện phủ ngón PU",
+    "images": ["/images/products/esd-001.jpg"],
+    "params": [
+      { "kZh": "表面电阻", "kVi": "Điện trở bề mặt", "vZh": "10⁶-10⁸Ω", "vVi": "10⁶-10⁸Ω" },
+      { "kZh": "涂层", "kVi": "Lớp phủ", "vZh": "PU涂指/涂掌", "vVi": "PU ngón/lòng bàn tay" }
+    ],
+    "introZh": "电子厂SMT与组装工位标配，月度复购，价格对标1688。",
+    "introVi": "Trang bị chuẩn công đoạn SMT và lắp ráp điện tử; mua lại hàng tháng, giá đối chiếu 1688.",
+    "scenario": ["electronic"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "esd-002",
+    "category": "esd",
+    "nameZh": "防静电镊子",
+    "nameVi": "Kẹp nhíp chống tĩnh điện",
+    "images": ["/images/products/esd-002.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "防静电碳纤", "vVi": "Carbon chống tĩnh điện" },
+      { "kZh": "长度", "kVi": "Chiều dài", "vZh": "120-160mm", "vVi": "120-160mm" }
+    ],
+    "introZh": "贴片与微小件取放的常备工具，尖头/平头均有。",
+    "introVi": "Dụng cụ thường trực để cầm linh kiện nhỏ; có đầu nhọn và đầu bằng.",
+    "scenario": ["electronic"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "esd-003",
+    "category": "esd",
+    "nameZh": "无尘擦拭布",
+    "nameVi": "Khăn lau phòng sạch",
+    "images": ["/images/products/esd-003.jpg"],
+    "params": [
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "9×9英寸 100张/包", "vVi": "9×9 inch, 100 tờ/gói" },
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "超细纤维", "vVi": "Sợi siêu mịn" }
+    ],
+    "introZh": "无尘室与钢网擦拭的日耗品，不掉毛不刮伤。",
+    "introVi": "Vật tư tiêu hao hàng ngày của phòng sạch và lau stencil; không rơi xơ, không xước.",
+    "scenario": ["electronic"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "welding-001",
+    "category": "welding",
+    "nameZh": "CO2焊丝 ER70S-6",
+    "nameVi": "Dây hàn CO2 ER70S-6",
+    "images": ["/images/products/welding-001.jpg"],
+    "params": [
+      { "kZh": "直径", "kVi": "Đường kính", "vZh": "0.8/1.0/1.2mm", "vVi": "0.8/1.0/1.2mm" },
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "15kg/盘", "vVi": "15kg/cuộn" }
+    ],
+    "introZh": "ER70S-6是钢结构与机架焊接的通用镀铜焊丝，整箱采购价优。",
+    "introVi": "ER70S-6 là dây hàn mạ đồng phổ dụng cho kết cấu thép; mua nguyên thùng giá tốt.",
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "welding-002",
+    "category": "welding",
+    "nameZh": "不锈钢焊条 A102",
+    "nameVi": "Que hàn inox A102",
+    "images": ["/images/products/welding-002.jpg"],
+    "params": [
+      { "kZh": "直径", "kVi": "Đường kính", "vZh": "2.5-4.0mm", "vVi": "2.5-4.0mm" },
+      { "kZh": "用途", "kVi": "Ứng dụng", "vZh": "304不锈钢焊接", "vVi": "Hàn inox 304" }
+    ],
+    "introZh": "A102钛钙型不锈钢焊条，食品设备与不锈钢结构件修补常用。",
+    "introVi": "Que hàn inox A102 thường dùng sửa thiết bị thực phẩm và kết cấu inox.",
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "welding-003",
+    "category": "welding",
+    "nameZh": "切割片 350×3×25.4",
+    "nameVi": "Đá cắt 350×3×25.4",
+    "images": ["/images/products/welding-003.jpg"],
+    "params": [
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "350×3×25.4mm", "vVi": "350×3×25.4mm" },
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "棕刚玉 树脂结合", "vVi": "Nhôm oxit, keo nhựa" }
+    ],
+    "introZh": "角磨机切割型材与钢板的消耗件，成箱采购按片价更优。",
+    "introVi": "Đá cắt cho máy mài cắt profile và thép; mua nguyên thùng tính theo viên rẻ hơn.",
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "equip-006",
+    "category": "equipment",
+    "nameZh": "活塞空压机 7.5kW 储气300L",
+    "nameVi": "Máy nén khí pít-tông 7.5kW bình 300L",
+    "images": ["/images/products/equip-006.jpg"],
+    "params": [
+      { "kZh": "功率", "kVi": "Công suất", "vZh": "7.5kW / 10马力", "vVi": "7.5kW / 10 mã lực" },
+      { "kZh": "储气罐", "kVi": "Bình khí", "vZh": "300L", "vVi": "300L" },
+      { "kZh": "电压", "kVi": "Điện áp", "vZh": "380V 三相", "vVi": "380V 3 pha" }
+    ],
+    "introZh": "工厂气源的标配设备，中国头部厂出厂价约为越南市面价的六到七成，含中文/越南语说明书与备件包。",
+    "introVi": "Thiết bị chuẩn cho nguồn khí nhà xưởng; giá xuất xưởng Trung Quốc thường bằng 60–70% giá thị trường Việt Nam, kèm tài liệu song ngữ và gói phụ tùng.",
+    "featured": true,
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "equip-007",
+    "category": "equipment",
+    "nameZh": "台式钻床 16mm",
+    "nameVi": "Máy khoan bàn 16mm",
+    "images": ["/images/products/equip-007.jpg"],
+    "params": [
+      { "kZh": "最大钻孔", "kVi": "Khoan tối đa", "vZh": "16mm 钢材", "vVi": "16mm thép" },
+      { "kZh": "电压", "kVi": "Điện áp", "vZh": "220V/380V 可选", "vVi": "220V/380V tùy chọn" }
+    ],
+    "introZh": "机加工与维修车间的入门设备，中国产台钻性价比高，随机附皮带与钻夹头备件。",
+    "introVi": "Thiết bị nhập môn cho xưởng gia công và bảo trì; máy khoan bàn Trung Quốc giá tốt, kèm đai và ôc cầm dự phòng.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "agri-001",
+    "category": "agri",
+    "nameZh": "柴油水泵机组 自吸式",
+    "nameVi": "Máy bơm diesel tự hút",
+    "images": ["/images/products/agri-1.jpg"],
+    "params": [
+      { "kZh": "口径", "kVi": "Đường kính", "vZh": "3寸 / 4寸", "vVi": "3 inch / 4 inch" },
+      { "kZh": "扬程", "kVi": "Cột áp", "vZh": "25–32m", "vVi": "25–32m" },
+      { "kZh": "启动方式", "kVi": "Khởi động", "vZh": "电启动 / 手启动", "vVi": "Đề điện / Giật tay" }
+    ],
+    "introZh": "农田灌溉、鱼塘换水、工地排水的通用动力设备。中国产柴油水泵机组价格约为越南市面的六到七成，配件（泵芯、密封件）同批可配。",
+    "introVi": "Thiết bị động lực phổ thông cho tưới tiêu, thay nước ao cá, thoát nước công trường. Máy bơm diesel Trung Quốc giá khoảng 60–70% thị trường Việt Nam, phụ kiện (bộ bơm, gioăng) đặt cùng lô.",
+    "faq": [
+      { "qZh": "有保修吗？", "qVi": "Có bảo hành không?", "aZh": "核心件一年，寄回中国厂换或发配件到越南。", "aVi": "Lõi máy 1 năm, gửi về xưởng TQ đổi hoặc chuyển phụ kiện sang VN." }
+    ],
+    "scenario": ["agriculture"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "agri-002",
+    "category": "agri",
+    "nameZh": "微耕机 田园管理机",
+    "nameVi": "Máy cày mini",
+    "images": ["/images/products/agri-2.jpg"],
+    "params": [
+      { "kZh": "功率", "kVi": "Công suất", "vZh": "5.5–7.0 HP 柴油/汽油", "vVi": "5.5–7.0 HP diesel/xăng" },
+      { "kZh": "耕宽", "kVi": "Chiều rộng cày", "vZh": "60–105cm 可调", "vVi": "60–105cm điều chỉnh" },
+      { "kZh": "配套农具", "kVi": "Dụng cụ kèm", "vZh": "旋耕轮/开沟器/除草轮", "vVi": "Bánh cày/khe rãnh/bánh diệt cỏ" }
+    ],
+    "introZh": "小地块、果园、菜地的主力耕作机械，越南农户接受度极高。中国产微耕机配件通用性强，易损件（刀片、皮带）可随整机同批采购备用。",
+    "introVi": "Máy cày chính cho đất nhỏ, vườn cây, ruộng rau — nông dân Việt Nam rất ưa dùng. Phụ tùng máy cày mini Trung Quốc dễ kiếm; linh kiện hao mòn (lưỡi cày, đai) nên mua dự phòng cùng lô.",
+    "scenario": ["agriculture"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "agri-003",
+    "category": "agri",
+    "nameZh": "谷物烘干机 批式循环",
+    "nameVi": "Máy sấy lúa mẻ tròn",
+    "images": ["/images/products/agri-3.jpg"],
+    "params": [
+      { "kZh": "单批容量", "kVi": "Sức chứa/mẻ", "vZh": "10–30吨 可选", "vVi": "10–30 tấn tùy chọn" },
+      { "kZh": "热源", "kVi": "Nhiệt", "vZh": "柴油 / 生物质燃烧炉", "vVi": "Dầu / đốt sinh khối" },
+      { "kZh": "降水率", "kVi": "Giảm ẩm", "vZh": "约1%/小时", "vVi": "~1%/giờ" }
+    ],
+    "introZh": "湄公河三角洲与北方稻区雨季抢收的刚需设备——湿谷不及时烘干两天内即霉变。中国批式循环烘干机价格与交期都优于本地代理，可正贸整机进口。",
+    "introVi": "Thiết bị bắt buộc trong mùa mưa thu hoạch ở ĐBSCL và vùng Bắc Bộ — lúa ẩm không sấy sẽ mốc trong 2 ngày. Máy sấy tròn mẻ Trung Quốc giá và thời gian giao đều hơn đại lý nội địa, nhập nguyên máy chính ngạch.",
+    "faq": [
+      { "qZh": "含安装调试吗？", "qVi": "Có lắp đặt chạy thử?", "aZh": "到厂安装指导，越南语说明书与操作视频随货。", "aVi": "Hướng dẫn lắp tại xưởng, kèm tài liệu tiếng Việt và video vận hành." }
+    ],
+    "scenario": ["agriculture"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "build-001",
+    "category": "building",
+    "nameZh": "环氧地坪漆 双组份",
+    "nameVi": "Sơn nền epoxy 2 thành phần",
+    "images": ["/images/products/build-1.jpg"],
+    "params": [
+      { "kZh": "类型", "kVi": "Loại", "vZh": "底涂+中涂+面涂 体系", "vVi": "Hệ lót + lớp giữa + hoàn thiện" },
+      { "kZh": "厚度", "kVi": "Độ dày", "vZh": "0.5–3mm 薄涂/自流平", "vVi": "0.5–3mm mỏng/tự chảy" },
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "20kg/组", "vVi": "20kg/bộ" }
+    ],
+    "introZh": "车间地坪的主流方案：防尘、耐叉车碾压、易冲洗。中国产环氧地坪材料加施工指导打包采购，比本地分包便宜三成左右。",
+    "introVi": "Giải pháp nền xưởng phổ thông: chống bụi, chịu xe nâng, dễ rửa. Vật liệu epoxy Trung Quốc kèm hướng dẫn thi công, rẻ hơn khoảng 30% so với thầu nội địa.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "build-002",
+    "category": "building",
+    "nameZh": "岩棉保温板 防火",
+    "nameVi": "Panel bảo ôn rockwool",
+    "images": ["/images/products/build-2.jpg"],
+    "params": [
+      { "kZh": "芯材", "kVi": "Lõi", "vZh": "岩棉 80–120kg/m³", "vVi": "Rockwool 80–120kg/m³" },
+      { "kZh": "厚度", "kVi": "Độ dày", "vZh": "50 / 75 / 100mm", "vVi": "50 / 75 / 100mm" },
+      { "kZh": "面板", "kVi": "Mặt", "vZh": "彩钢板 0.4–0.6mm", "vVi": "Tôn mạ 0.4–0.6mm" }
+    ],
+    "introZh": "厂房隔断、烤漆房、冷库的防火保温材料。中国岩棉夹芯板按图纸定制尺寸整柜发运，配套自攻钉与密封胶。",
+    "introVi": "Vật liệu chống cháy giữ nhiệt cho vách ngăn xưởng, phòng sơn, kho lạnh. Panel rockwool Trung Quốc cắt theo bản vẽ, gửi nguyên container, kèm vít tự khoan và keo bịt.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "build-003",
+    "category": "building",
+    "nameZh": "醇酸防锈漆 钢结构用",
+    "nameVi": "Sơn chống gỉ alkyd",
+    "images": ["/images/products/build-3.jpg"],
+    "params": [
+      { "kZh": "固含", "kVi": "Chất rắn", "vZh": "≥55%", "vVi": "≥55%" },
+      { "kZh": "颜色", "kVi": "Màu", "vZh": "灰/红丹/定制", "vVi": "Xám/Đỏ chì/theo yêu cầu" },
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "20kg/桶", "vVi": "20kg/thùng" }
+    ],
+    "introZh": "钢构厂房、护栏、设备外壳的防腐底漆面漆。批量采购中国厂防锈漆，价格约为本地五金店的一半，配套稀释剂同柜。",
+    "introVi": "Sơn lót và phủ chống gỉ cho nhà thép, lan can, vỏ thiết bị. Mua sơn chống gỉ xưởng Trung Quốc theo lô, giá khoảng một nửa tiệm sắt nội địa, kèm dung môi cùng container.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "wear-001",
+    "category": "workwear",
+    "nameZh": "涤棉工作服 定制绣印",
+    "nameVi": "Đồng phục poly-cotton may theo yêu cầu",
+    "images": ["/images/products/wear-1.jpg"],
+    "params": [
+      { "kZh": "面料", "kVi": "Vải", "vZh": "涤棉 65/35 210g", "vVi": "Poly-cotton 65/35 210g" },
+      { "kZh": "工艺", "kVi": "Công nghệ", "vZh": "刺绣logo / 丝印", "vVi": "Thêu logo / In lụa" },
+      { "kZh": "起订", "kVi": "MOQ", "vZh": "30套起", "vVi": "Từ 30 bộ" }
+    ],
+    "introZh": "工厂统一工装是管理形象的基本盘。中国服装厂代工定制，交期约15–20天，含绣印logo，价格约为本地成衣店六成。",
+    "introVi": "Đồng phục thống nhất là mặt bằng quản lý cơ bản của nhà máy. May gia công tại xưởng dệt Trung Quốc, giao 15–20 ngày, có thêu logo, giá khoảng 60% tiệm may nội địa.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "wear-002",
+    "category": "workwear",
+    "nameZh": "反光背心 高可视",
+    "nameVi": "Áo phản quang độ thấy cao",
+    "images": ["/images/products/wear-2.jpg"],
+    "params": [
+      { "kZh": "标准", "kVi": "Tiêu chuẩn", "vZh": "EN ISO 20471", "vVi": "EN ISO 20471" },
+      { "kZh": "面料", "kVi": "Vải", "vZh": "涤纶网格 + 3M晶格条", "vVi": "Lưới polyester + dải 3M" },
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "50件/包", "vVi": "50 chiếc/gói" }
+    ],
+    "introZh": "仓库、码头、工地通勤的合规高可视背心，支持logo丝印。整包采购单价远低于本地零售。",
+    "introVi": "Áo phản quang đạt chuẩn cho kho, bến, công trường; nhận in logo. Mua nguyên gói, đơn giá thấp hơn nhiều so với bán lẻ nội địa.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "wear-003",
+    "category": "workwear",
+    "nameZh": "防滑劳保鞋 钢头",
+    "nameVi": "Giày bảo hộ mũi thép chống trượt",
+    "images": ["/images/products/wear-3.jpg"],
+    "params": [
+      { "kZh": "防护", "kVi": "Bảo hộ", "vZh": "钢头 + 钢底板", "vVi": "Mũi thép + đế thép" },
+      { "kZh": "标准", "kVi": "Tiêu chuẩn", "vZh": "EN ISO 20345 SB", "vVi": "EN ISO 20345 SB" },
+      { "kZh": "尺码", "kVi": "Size", "vZh": "36–46 混批", "vVi": "36–46 ghép lô" }
+    ],
+    "introZh": "车间与仓储一线的标配安全鞋。中国劳保鞋厂源头价约为本地渠道一半，支持混码整箱采购。",
+    "introVi": "Giày an toàn tiêu chuẩn cho sản xuất và kho. Giá từ xưởng giày TQ khoảng một nửa kênh nội địa, cho phép ghép size theo thùng.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "office-001",
+    "category": "office",
+    "nameZh": "工业落地扇 大风量",
+    "nameVi": "Quạt đứng công nghiệp lực gió lớn",
+    "images": ["/images/products/office-1.jpg"],
+    "params": [
+      { "kZh": "扇径", "kVi": "Đường kính", "vZh": "650 / 750mm", "vVi": "650 / 750mm" },
+      { "kZh": "功率", "kVi": "Công suất", "vZh": "220W–550W", "vVi": "220W–550W" },
+      { "kZh": "功能", "kVi": "Chức năng", "vZh": "三档调速 / 摇头", "vVi": "3 tốc độ / quay đầu" }
+    ],
+    "introZh": "车间夏季防中暑的低成本方案——一台大风量落地扇覆盖一个工位区。中国产电机耐用，配件（电容、开关）可同批备。",
+    "introVi": "Giải pháp chi phí thấp chống say nắng mùa hè trong xưởng — một chiếc quạt lớn phủ cả khu làm việc. Motor Trung Quốc bền, phụ kiện (tụ điện, công tắc) mua dự phòng cùng lô.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "office-002",
+    "category": "office",
+    "nameZh": "不锈钢食堂餐盘 五格",
+    "nameVi": "Khay căng tin inox 5 ô",
+    "images": ["/images/products/office-2.jpg"],
+    "params": [
+      { "kZh": "材质", "kVi": "Chất liệu", "vZh": "304不锈钢 0.8mm", "vVi": "Inox 304 0.8mm" },
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "五格加深 26cm", "vVi": "5 ô sâu 26cm" },
+      { "kZh": "起订", "kVi": "MOQ", "vZh": "200只起", "vVi": "Từ 200 chiếc" }
+    ],
+    "introZh": "员工食堂整批配齐的刚需品——中国不锈钢制品厂价约为本地批发六成，同批可配保温桶与餐具车。",
+    "introVi": "Vật tư bắt buộc của căng tin công nhân — giá xưởng inox Trung Quốc khoảng 60% bán buôn nội địa, đặt kèm thùng giữ nhiệt và xe đẩy chén.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "office-003",
+    "category": "office",
+    "nameZh": "工厂清洁用品套装",
+    "nameVi": "Bộ vật tư vệ sinh nhà xưởng",
+    "images": ["/images/products/office-3.jpg"],
+    "params": [
+      { "kZh": "内容", "kVi": "Thành phần", "vZh": "拖把/扫帚/垃圾铲/清洁剂", "vVi": "Chổi lau/chổi quét/hót rác/nước tẩy" },
+      { "kZh": "包装", "kVi": "Đóng gói", "vZh": "50人厂 ×1月用量", "vVi": "Xưởng 50 người × 1 tháng" },
+      { "kZh": "补货", "kVi": "Bổ sung", "vZh": "按月固定复购价", "vVi": "Giá cố định mua lại hàng tháng" }
+    ],
+    "introZh": "新厂开荒与日常保洁的打包方案：一次配齐一个月用量，按月复购价锁定，省去零散采购。",
+    "introVi": "Gói khai trương và vệ sinh định kỳ: gom đủ một tháng dùng trong một đơn, khóa giá mua lại theo tháng, khỏi mua lẻ.",
+    "scenario": ["new-plant"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "ev-001",
+    "category": "evehicle",
+    "nameZh": "电动两轮车 踏板款",
+    "nameVi": "Xe máy điện tay ga",
+    "images": ["/images/products/ev-1.jpg"],
+    "params": [
+      { "kZh": "电池", "kVi": "Ắc quy", "vZh": "60V20ah 铅酸 / 锂电可选", "vVi": "60V20ah chì / lithium tùy chọn" },
+      { "kZh": "续航", "kVi": "Quãng đường", "vZh": "60–80km", "vVi": "60–80km" },
+      { "kZh": "目标", "kVi": "Đối tượng", "vZh": "配送车队 / 员工通勤", "vVi": "Đội giao hàng / đi lại công nhân" }
+    ],
+    "introZh": "越南城市配送与通勤的主力车型。中国产电动两轮车整车正贸进口，车队批量采购价格可比本地代理低两成以上，电池与易损件同批配。",
+    "introVi": "Xe chủ lực cho giao hàng và đi lại đô thị Việt Nam. Xe điện 2 bánh Trung Quốc nhập nguyên xe chính ngạch, mua theo đội rẻ hơn đại lý nội địa trên 20%, kèm ắc quy và phụ tùng cùng lô.",
+    "faq": [
+      { "qZh": "能上牌吗？", "qVi": "Đăng ký biển được không?", "aZh": "随货提供合格证与VIN，配合当地注册流程。", "aVi": "Kèm chứng chỉ chất lượng và VIN, hỗ trợ quy trình đăng ký địa phương." }
+    ],
+    "scenario": ["autoparts"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "ev-002",
+    "category": "evehicle",
+    "nameZh": "电动三轮车 载货",
+    "nameVi": "Xe ba bánh điện chở hàng",
+    "images": ["/images/products/ev-2.jpg"],
+    "params": [
+      { "kZh": "载重", "kVi": "Tải trọng", "vZh": "400–800kg", "vVi": "400–800kg" },
+      { "kZh": "货厢", "kVi": "Thùng hàng", "vZh": "1.5–2m 可定制", "vVi": "1.5–2m đặt theo yêu cầu" },
+      { "kZh": "电池", "kVi": "Ắc quy", "vZh": "72V32ah", "vVi": "72V32ah" }
+    ],
+    "introZh": "市场、仓库、园区短驳的性价比之王——电三轮的采购与使用成本都低于燃油微卡。整车与备件（电机、控制器、刹车片）同批进口。",
+    "introVi": "Vua chi phí cho chợ, kho, bãi đi chặng ngắn — xe ba bánh điện rẻ hơn xe tải mini cả mua lẫn dùng. Nguyên xe và phụ tùng (motor, bộ điều khiển, má phanh) nhập cùng lô.",
+    "scenario": ["autoparts"],
+    "updatedAt": "2026-10-05"
+  },
+  {
+    "id": "ev-003",
+    "category": "evehicle",
+    "nameZh": "电动车电池组 铅酸",
+    "nameVi": "Bộ ắc quy xe điện",
+    "images": ["/images/products/ev-3.jpg"],
+    "params": [
+      { "kZh": "规格", "kVi": "Quy cách", "vZh": "12V20ah ×5（60V组）", "vVi": "12V20ah ×5 (bộ 60V)" },
+      { "kZh": "寿命", "kVi": "Tuổi thọ", "vZh": "500+ 次循环", "vVi": "500+ chu kỳ" },
+      { "kZh": "质保", "kVi": "Bảo hành", "vZh": "12个月", "vVi": "12 tháng" }
+    ],
+    "introZh": "车队运营最大的耗材——电池一年一换。直接从中国电池厂拿货，价格约为本地换电店六成，成组配好线缆端子。",
+    "introVi": "Vật tư tiêu hao lớn nhất của đội xe — ắc quy thay mỗi năm. Lấy thẳng từ xưởng ắc quy Trung Quốc, giá khoảng 60% tiệm thay nội địa, đóng bộ sẵn dây và đầu cắm.",
+    "scenario": ["autoparts"],
+    "updatedAt": "2026-10-05"
+  }
+]

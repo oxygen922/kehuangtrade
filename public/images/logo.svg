@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="khg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d8c66"/>
+      <stop offset="1" stop-color="#1d4733"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#khg)"/>
+  <!-- K -->
+  <rect x="12" y="18" width="5" height="28" fill="#f7f4ed"/>
+  <path d="M17 33.5 L26 18 H32 L23 33.5 L32 46 H26 Z" fill="#f7f4ed"/>
+  <!-- H -->
+  <rect x="36" y="18" width="5" height="28" fill="#f7f4ed"/>
+  <rect x="48" y="18" width="5" height="28" fill="#f7f4ed"/>
+  <!-- crossbar as outbound arrow -->
+  <rect x="36" y="29.5" width="12" height="5" fill="#e8722c"/>
+  <path d="M48 27.5 L55 32 L48 36.5 Z" fill="#e8722c"/>
+</svg>
