@@ -75,7 +75,13 @@ export default function HomePage({ params }: { params: { lang: string } }) {
                   {cats.map((c, ci) => {
                     const n = byCategory(c.slug).length;
                     const subs = ((lang === "zh" ? c.subs?.zh : c.subs?.vi) ?? "").split(" · ").filter(Boolean);
-                    const codeMap: Record<string, string> = { mro: "MRO", equipment: "EQP", auto: "AUTO" };
+                    const codeMap: Record<string, string> = {
+                      consumables: "CON",
+                      mechanical: "MEC",
+                      materials: "MAT",
+                      boards: "BRD",
+                      fasteners: "FST",
+                    };
                     const code = `${codeMap[g.key] ?? g.key.toUpperCase()}·${String(ci + 1).padStart(2, "0")}`;
                     const tileBody = (
                       <>

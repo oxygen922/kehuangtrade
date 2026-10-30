@@ -1,61 +1,21 @@
 [
   {
-    "slug": "labor",
-    "group": "mro",
-    "nameZh": "劳保与安防",
-    "nameVi": "Thiết bị bảo hộ",
-    "descZh": "手套、防护服、安全鞋、口罩——高频刚需，按月复购",
-    "descVi": "Găng tay, quần áo bảo hộ, giày an toàn, khẩu trang — nhu cầu thường xuyên",
+    "slug": "ppe",
+    "group": "consumables",
+    "nameZh": "劳保与防护",
+    "nameVi": "Bảo hộ lao động",
+    "descZh": "手套、防护服、安全鞋、工装定制——高频刚需，按月复购",
+    "descVi": "Găng tay, quần áo bảo hộ, giày an toàn — nhu cầu thường xuyên",
     "subs": {
       "zh": "手套 · 安全帽 · 护目镜 · 耳塞 · 安全鞋 · 工作服 · 反光衣",
-      "vi": "Găng tay · Mũ · Kính · Nút tai · Giày · Quần áo · Áo phản quang"
+      "vi": "Găng tay · Mũ · Kính · Nút tai · Giày · Đồng phục · Áo phản quang"
     },
     "hero": "/images/categories/labor.jpg",
-    "icon": "/images/products/labor-2.jpg"
-  },
-  {
-    "slug": "electric",
-    "group": "mro",
-    "nameZh": "电气与照明",
-    "nameVi": "Điện & chiếu sáng",
-    "descZh": "电缆、断路器、LED工矿灯、电工辅料",
-    "descVi": "Dây điện, aptomat, đèn LED nhà xưởng, phụ liệu điện",
-    "subs": {
-      "zh": "电缆电线 · 断路器 · 接触器 · 工矿灯 · 端子 · 电工胶带",
-      "vi": "Dây điện · Aptomat · Contactor · Đèn xưởng · Đầu nối · Băng keo điện"
-    },
-    "hero": "/images/categories/electric.jpg",
-    "icon": "/images/products/electric-3.jpg"
-  },
-  {
-    "slug": "chemical",
-    "group": "mro",
-    "nameZh": "化学品与润滑",
-    "nameVi": "Hóa chất & dầu nhớt",
-    "descZh": "脱模剂、清洗剂、润滑油脂——车间消耗品",
-    "descVi": "Tách khuôn, tẩy rửa, dầu mỡ công nghiệp — vật tư tiêu hao",
-    "subs": {
-      "zh": "脱模剂 · 清洗剂 · 润滑脂 · 液压油 · 导热膏 · 密封胶",
-      "vi": "Tách khuôn · Tẩy rửa · Mỡ · Dầu thủy lực · Keo dẫn nhiệt · Keo bịt"
-    },
-    "icon": "/images/icons/chemical.jpg"
-  },
-  {
-    "slug": "welding",
-    "group": "mro",
-    "nameZh": "焊接与磨料",
-    "nameVi": "Hàn & vật liệu mài",
-    "descZh": "焊丝焊条、砂轮片、切割片——机加工耗材",
-    "descVi": "Que, dây hàn, đá cắt, đá mài — vật tư tiêu hao gia công",
-    "subs": {
-      "zh": "焊丝 · 焊条 · 切割片 · 砂轮片 · 百叶轮 · 焊接防护",
-      "vi": "Dây hàn · Que hàn · Đá cắt · Đá mài · Đá lá · Mặt nạ hàn"
-    },
-    "icon": "/images/icons/welding.png"
+    "icon": "/images/icons/workwear.jpg"
   },
   {
     "slug": "esd",
-    "group": "mro",
+    "group": "consumables",
     "nameZh": "防静电与无尘",
     "nameVi": "Chống tĩnh điện & phòng sạch",
     "descZh": "静电手套服、镊子、无尘擦拭——电子厂标配",
@@ -67,62 +27,75 @@
     "icon": "/images/icons/esd.jpg"
   },
   {
-    "slug": "fastener",
-    "group": "mro",
-    "nameZh": "紧固件与标准件",
-    "nameVi": "Bu lông & chi tiết chuẩn",
-    "descZh": "螺栓、螺母、销、垫圈——国标/德标/英标按图代采",
-    "descVi": "Bu lông, ốc, chốt, vênh — theo GB/DIN/ANSI",
+    "slug": "welding",
+    "group": "consumables",
+    "nameZh": "焊接与磨料",
+    "nameVi": "Hàn & vật liệu mài",
+    "descZh": "焊丝焊条、砂轮片、切割片——机加工耗材",
+    "descVi": "Que, dây hàn, đá cắt, đá mài — vật tư tiêu hao gia công",
     "subs": {
-      "zh": "螺栓 · 螺母 · 垫圈 · 销轴 · 膨胀螺栓 · 铆钉",
-      "vi": "Bu lông · Đai ốc · Vênh · Chốt · Bu lông nở · Tán rivit"
+      "zh": "焊丝 · 焊条 · 切割片 · 砂轮片 · 百叶轮 · 焊接防护",
+      "vi": "Dây hàn · Que hàn · Đá cắt · Đá mài · Đá lá · Mặt nạ hàn"
     },
-    "icon": "/images/icons/fastener.png"
+    "icon": "/images/icons/welding.png"
   },
   {
-    "slug": "facility",
-    "group": "mro",
-    "nameZh": "仓储与包装",
-    "nameVi": "Kho vận & bao bì",
-    "descZh": "周转箱、缠绕膜、胶带、清洁与登高设备",
-    "descVi": "Thùng chứa, màng quấn, băng keo, vệ sinh & thang",
+    "slug": "lubricants",
+    "group": "consumables",
+    "nameZh": "润滑与化学品",
+    "nameVi": "Dầu nhớt & hóa chất",
+    "descZh": "润滑油脂、脱模剂、清洗剂——车间消耗品",
+    "descVi": "Dầu mỡ, tách khuôn, tẩy rửa — vật tư tiêu hao xưởng",
     "subs": {
-      "zh": "周转箱 · 缠绕膜 · 封箱胶带 · 清洁用品 · 铝梯 · 标签",
-      "vi": "Thùng chứa · Màng quấn · Băng keo · Vệ sinh · Thang nhôm · Nhãn"
+      "zh": "润滑脂 · 液压油 · 脱模剂 · 清洗剂 · 防锈油 · 导热膏",
+      "vi": "Mỡ · Dầu thủy lực · Tách khuôn · Tẩy rửa · Dầu chống gỉ · Keo dẫn nhiệt"
     },
-    "hero": "/images/categories/facility.jpg",
-    "icon": "/images/icons/facility.png"
+    "icon": "/images/icons/chemical.jpg"
   },
   {
-    "slug": "equipment",
-    "group": "equipment",
-    "nameZh": "设备与机械",
-    "nameVi": "Thiết bị & máy móc",
-    "descZh": "整机设备、产线机械、传动备件——中国源头工厂直采",
-    "descVi": "Máy móc thiết bị, phụ tùng truyền động — mua thẳng nhà máy nguồn",
+    "slug": "electrical",
+    "group": "consumables",
+    "nameZh": "电气与照明",
+    "nameVi": "Điện & chiếu sáng",
+    "descZh": "电缆、断路器、LED工矿灯、通风降温",
+    "descVi": "Dây điện, aptomat, đèn LED nhà xưởng, thông gió",
     "subs": {
-      "zh": "空压机 · 钻床 · 风机水泵 · 轴承 · 皮带 · 托辊 · 电机",
-      "vi": "Máy nén khí · Khoan bàn · Quạt & bơm · Vòng bi · Curoa · Con lăn · Motor"
+      "zh": "电缆电线 · 断路器 · 接触器 · 工矿灯 · 端子 · 排风风扇",
+      "vi": "Dây điện · Aptomat · Contactor · Đèn xưởng · Đầu nối · Quạt thông gió"
+    },
+    "hero": "/images/categories/electric.jpg",
+    "icon": "/images/products/electric-3.jpg"
+  },
+  {
+    "slug": "cleaning",
+    "group": "consumables",
+    "nameZh": "清洁与后勤",
+    "nameVi": "Vệ sinh & hậu cần",
+    "descZh": "清洁用品、风扇、食堂后勤——工厂后勤一站配齐",
+    "descVi": "Vệ sinh, quạt, hậu cần căng tin — hậu cần nhà xưởng một điểm",
+    "subs": {
+      "zh": "清洁用品 · 落地风扇 · 食堂餐具 · 日用杂品 · 垃圾分类",
+      "vi": "Vệ sinh · Quạt đứng · Bát đĩa căng tin · Tạp hóa · Phân loại rác"
+    },
+    "icon": "/images/icons/office.jpg"
+  },
+  {
+    "slug": "transmission",
+    "group": "mechanical",
+    "nameZh": "传动与轴承",
+    "nameVi": "Truyền động & vòng bi",
+    "descZh": "轴承、皮带、托辊、联轴器——按型号代采",
+    "descVi": "Vòng bi, curoa, con lăn, khớp nối — mua theo mã",
+    "subs": {
+      "zh": "深沟球轴承 · 三角带 · 输送托辊 · 联轴器 · 链轮链条 · 传感器仪表",
+      "vi": "Vòng bi · Curoa · Con lăn · Khớp nối · Sprocket & xích · Cảm biến"
     },
     "hero": "/images/categories/equipment.jpg",
     "icon": "/images/icons/equipment.png"
   },
   {
-    "slug": "mold",
-    "group": "equipment",
-    "nameZh": "模具配件",
-    "nameVi": "Phụ tùng khuôn mẫu",
-    "descZh": "顶针、热流道、弹簧——挤压模/注塑模配件",
-    "descVi": "Đôi đẩy, hot runner, lò xo khuôn — phụ tùng khuôn",
-    "subs": {
-      "zh": "顶针 · 热流道 · 模具弹簧 · 日期章 · 锁模件 · 模脚",
-      "vi": "Đôi đẩy · Hot runner · Lò xo khuôn · Con dấu ngày · Khóa khuôn · Chân khuôn"
-    },
-    "icon": "/images/icons/mold.jpg"
-  },
-  {
     "slug": "hydraul",
-    "group": "equipment",
+    "group": "mechanical",
     "nameZh": "液压与气动",
     "nameVi": "Thủy lực & khí nén",
     "descZh": "油缸密封、电磁阀、气缸——按图号匹配",
@@ -134,52 +107,52 @@
     "icon": "/images/icons/hydraul.png"
   },
   {
-    "slug": "tools",
-    "group": "equipment",
-    "nameZh": "手动与电动工具",
-    "nameVi": "Dụng cụ cầm tay & điện",
-    "descZh": "扳手、螺丝刀、电钻、锤——维修必备",
-    "descVi": "Cờ lê, tuốc nơ vít, máy khoan, búa — bảo trì",
+    "slug": "mold",
+    "group": "mechanical",
+    "nameZh": "模具配件",
+    "nameVi": "Phụ tùng khuôn mẫu",
+    "descZh": "顶针、热流道、弹簧——挤压模/注塑模配件",
+    "descVi": "Đôi đẩy, hot runner, lò xo khuôn — phụ tùng khuôn",
     "subs": {
-      "zh": "扳手 · 螺丝刀 · 电钻 · 钳子 · 锤子 · 量具 · 刀具",
-      "vi": "Cờ lê · Tuốc nơ vít · Máy khoan · Kìm · Búa · Thước đo · Dao cắt"
+      "zh": "顶针 · 热流道 · 模具弹簧 · 日期章 · 锁模件 · 模脚",
+      "vi": "Đôi đẩy · Hot runner · Lò xo khuôn · Con dấu ngày · Khóa khuôn · Chân khuôn"
+    },
+    "icon": "/images/icons/mold.jpg"
+  },
+  {
+    "slug": "machine-tools",
+    "group": "mechanical",
+    "nameZh": "机床与工具",
+    "nameVi": "Máy công cụ & dụng cụ",
+    "descZh": "机床、通用设备、手电动工具与量具刀具",
+    "descVi": "Máy công cụ, thiết bị thông dụng, dụng cụ cầm tay & đo lường",
+    "subs": {
+      "zh": "台钻 · 空压机 · 扳手 · 电钻 · 量具 · 刀具",
+      "vi": "Khoan bàn · Máy nén khí · Cờ lê · Máy khoan · Thước đo · Dao cắt"
     },
     "hero": "/images/categories/tools.jpg",
     "icon": "/images/products/tools-2.jpg"
   },
   {
     "slug": "vehicle",
-    "group": "auto",
-    "nameZh": "搬运与车辆配件",
-    "nameVi": "Nâng hạ & phụ tùng xe",
-    "descZh": "脚轮、地牛、叉车配件、吊装带",
-    "descVi": "Bánh xe đẩy, xe nâng tay, phụ tùng xe nâng, dây cẩu",
+    "group": "mechanical",
+    "nameZh": "车辆与搬运",
+    "nameVi": "Phương tiện & nâng hạ",
+    "descZh": "脚轮、叉车配件、电动车与汽配——车队批量采购",
+    "descVi": "Bánh xe, phụ tùng nâng, xe điện & phụ tùng ô tô — mua theo đội xe",
     "subs": {
-      "zh": "脚轮 · 地牛 · 叉车配件 · 吊装带 · 登车桥 · 轮胎",
-      "vi": "Bánh xe · Xe nâng tay · Phụ tùng nâng · Dây cẩu · Cầu lên xe · Lốp"
+      "zh": "脚轮 · 地牛 · 叉车配件 · 电动三轮 · 汽配 · 轮胎",
+      "vi": "Bánh xe · Xe nâng tay · Phụ tùng nâng · Xe 3 bánh điện · Phụ tùng ô tô · Lốp"
     },
     "hero": "/images/categories/vehicle.jpg",
     "icon": "/images/products/veh-2.jpg"
   },
   {
-    "slug": "autoparts",
-    "group": "auto",
-    "nameZh": "汽车配件",
-    "nameVi": "Phụ tùng ô tô",
-    "descZh": "东风系列易损件、发动机底盘件、滤芯油品——源头渠道直发",
-    "descVi": "Phụ tùng Dongfeng, động cơ, gầm xe, lọc & dầu — từ nguồn",
-    "subs": {
-      "zh": "东风易损件 · 发动机件 · 底盘件 · 滤芯 · 油品 · 电气件",
-      "vi": "Dongfeng hao mòn · Động cơ · Gầm xe · Lọc · Dầu nhớt · Điện ô tô"
-    },
-    "icon": "/images/icons/autoparts.jpg"
-  },
-  {
     "slug": "agri",
-    "group": "equipment",
-    "nameZh": "农机与泵类",
-    "nameVi": "Nông máy & bơm",
-    "descZh": "柴油水泵、微耕机、烘干设备——农业生产源头直采",
+    "group": "mechanical",
+    "nameZh": "农机与灌溉",
+    "nameVi": "Nông máy & tưới tiêu",
+    "descZh": "柴油水泵、微耕机、烘干设备——农业源头直采",
     "descVi": "Máy bơm diesel, máy cày mini, máy sấy — nông nghiệp giá gốc",
     "subs": {
       "zh": "柴油水泵 · 微耕机 · 谷物烘干 · 自吸泵 · 喷灌 · 农用电机",
@@ -188,55 +161,163 @@
     "icon": "/images/icons/agri.jpg"
   },
   {
-    "slug": "building",
-    "group": "equipment",
-    "nameZh": "建材与涂装",
-    "nameVi": "VLXD & sơn",
-    "descZh": "环氧地坪、保温材料、防腐涂料、涂装设备——厂房建设与维护",
-    "descVi": "Sơn epoxy, bảo ôn, sơn chống ăn mòn, thiết bị sơn — xây dựng & bảo trì nhà xưởng",
+    "slug": "plastics",
+    "group": "materials",
+    "nameZh": "塑料与橡胶原料",
+    "nameVi": "Nhựa & cao su",
+    "descZh": "PP/PE/ABS/PVC颗粒、硅胶橡胶原料——按牌号代采",
+    "descVi": "Hạt PP/PE/ABS/PVC, silicone & cao su — mua theo mã nhựa",
     "subs": {
-      "zh": "环氧地坪漆 · 岩棉保温板 · 防腐涂料 · 防锈漆 · 涂装设备 · 密封胶",
-      "vi": "Sơn epoxy · Panel bảo ôn · Sơn chống ăn mòn · Sơn chống gỉ · Thiết bị sơn · Keo bịt"
+      "zh": "PP · PE · ABS · PVC · 硅胶 · 橡胶件定制",
+      "vi": "PP · PE · ABS · PVC · Silicone · Cao su định hình"
+    }
+  },
+  {
+    "slug": "chem-raw",
+    "group": "materials",
+    "nameZh": "化工原料",
+    "nameVi": "Nguyên liệu hóa chất",
+    "descZh": "溶剂、树脂、助剂——大宗化工原料按吨代采",
+    "descVi": "Dung môi, nhựa cây, phụ gia — nguyên liệu hóa chất theo lô",
+    "subs": {
+      "zh": "溶剂 · 树脂 · 助剂 · 颜料 · 填料 · 胶乳",
+      "vi": "Dung môi · Nhựa cây · Phụ gia · Màu · Chất độn · Mủ cao su"
+    }
+  },
+  {
+    "slug": "coatings",
+    "group": "materials",
+    "nameZh": "涂料与油漆",
+    "nameVi": "Sơn & sơn phủ",
+    "descZh": "环氧地坪、防锈防腐、工业漆——厂房建设与维护",
+    "descVi": "Sơn epoxy, chống gỉ, sơn công nghiệp — xây dựng & bảo trì nhà xưởng",
+    "subs": {
+      "zh": "环氧地坪漆 · 防锈漆 · 防腐涂料 · 面漆 · 稀释剂 · 涂装工具",
+      "vi": "Sơn epoxy · Sơn chống gỉ · Sơn chống ăn mòn · Sơn phủ · Dung môi pha · Dụng cụ sơn"
+    }
+  },
+  {
+    "slug": "packaging",
+    "group": "materials",
+    "nameZh": "包装与仓储",
+    "nameVi": "Đóng gói & kho vận",
+    "descZh": "周转箱、缠绕膜、胶带、登高与仓储设备",
+    "descVi": "Thùng chứa, màng quấn, băng keo, thiết bị kho & thang",
+    "subs": {
+      "zh": "周转箱 · 缠绕膜 · 封箱胶带 · 纸箱 · 标签 · 登高梯",
+      "vi": "Thùng chứa · Màng quấn · Băng keo · Thùng carton · Nhãn · Thang"
+    },
+    "hero": "/images/categories/facility.jpg",
+    "icon": "/images/icons/facility.png"
+  },
+  {
+    "slug": "metal-sheets",
+    "group": "boards",
+    "nameZh": "金属板材",
+    "nameVi": "Tấm kim loại",
+    "descZh": "彩钢瓦、镀锌板、铝板、不锈钢板——按尺寸加工",
+    "descVi": "Tôn mạ màu, tôn mạ kẽm, nhôm, inox — gia công theo kích thước",
+    "subs": {
+      "zh": "彩钢瓦 · 镀锌板 · 铝板 · 不锈钢板 · 花纹板 · 卷板分条",
+      "vi": "Tôn màu · Tôn kẽm · Tấm nhôm · Inox · Tấm gân · Cuộn tôn"
+    }
+  },
+  {
+    "slug": "sandwich-panels",
+    "group": "boards",
+    "nameZh": "夹芯板与保温",
+    "nameVi": "Panel sandwich & bảo ôn",
+    "descZh": "岩棉板、EPS夹芯板、彩钢夹芯板——厂房围护",
+    "descVi": "Panel đá wool, EPS, tôn panel — vỏ bao nhà xưởng",
+    "subs": {
+      "zh": "岩棉板 · EPS夹芯板 · 彩钢夹芯板 · 玻璃棉 · 保温棉 · 安装附件",
+      "vi": "Panel đá wool · Panel EPS · Tôn panel · Bông thủy tinh · Bông bảo ôn · Phụ kiện"
     },
     "icon": "/images/icons/building.jpg"
   },
   {
-    "slug": "workwear",
-    "group": "mro",
-    "nameZh": "纺织与工装",
-    "nameVi": "Dệt may & đồng phục",
-    "descZh": "工作服定制、反光背心、劳保鞋——支持绣印logo",
-    "descVi": "May đồng phục, áo phản quang, giày bảo hộ — nhận thêu/in logo",
+    "slug": "gypsum",
+    "group": "boards",
+    "nameZh": "石膏与饰面板",
+    "nameVi": "Thạch cao & tấm trang trí",
+    "descZh": "石膏板、硅钙板、饰面板与龙骨配件",
+    "descVi": "Tấm thạch cao, SJC, tấm trang trí & khung xương",
     "subs": {
-      "zh": "工作服 · 反光背心 · 防滑劳保鞋 · 防割服 · 帽子 · 绣印定制",
-      "vi": "Đồng phục · Áo phản quang · Giày chống trượt · Quần chống cắt · Mũ · Thêu in logo"
-    },
-    "icon": "/images/icons/workwear.jpg"
+      "zh": "石膏板 · 硅钙板 · 饰面板 · 轻钢龙骨 · 螺丝 · 嵌缝膏",
+      "vi": "Tấm thạch cao · Tấm SJC · Tấm trang trí · Khung xương · Vít · Bột trét"
+    }
   },
   {
-    "slug": "office",
-    "group": "mro",
-    "nameZh": "办公与后勤",
-    "nameVi": "Văn phòng & hậu cần",
-    "descZh": "食堂餐具、清洁用品、风扇家电、文具——工厂后勤一站配齐",
-    "descVi": "Bát đĩa căng tin, vệ sinh, quạt & gia dụng, văn phòng phẩm — hậu cần nhà xưởng",
+    "slug": "formwork",
+    "group": "boards",
+    "nameZh": "建筑模板与木方",
+    "nameVi": "Ván khuôn & gỗ",
+    "descZh": "胶合板模板、木方、钢管脚手架——工地大宗",
+    "descVi": "Ván coffa, gỗ, giàn giáo — vật tư công trường số lượng lớn",
     "subs": {
-      "zh": "食堂餐具 · 清洁用品 · 落地风扇 · 家电 · 文具 · 日用杂品",
-      "vi": "Bát đĩa căng tin · Vệ sinh · Quạt đứng · Gia dụng · Văn phòng phẩm · Tạp hóa"
-    },
-    "icon": "/images/icons/office.jpg"
+      "zh": "胶合板 · 模板 · 木方 · 脚手架 · 钢管 · 扣件",
+      "vi": "Ván coffa · Ván khuôn · Gỗ · Giáo · Ống thép · Kẹp giáo"
+    }
   },
   {
-    "slug": "evehicle",
-    "group": "auto",
-    "nameZh": "电动车与配件",
-    "nameVi": "Xe điện & phụ tùng",
-    "descZh": "电动两轮/三轮整车与电池配件——配送车队批量采购",
-    "descVi": "Xe điện 2/3 bánh nguyên xe & ắc quy phụ tùng — mua theo đội xe",
+    "slug": "bolts-nuts",
+    "group": "fasteners",
+    "nameZh": "螺栓与螺母",
+    "nameVi": "Bu lông & đai ốc",
+    "descZh": "螺栓、螺母、销、垫圈——国标/德标/英标按图代采",
+    "descVi": "Bu lông, ốc, chốt, vênh — theo GB/DIN/ANSI",
     "subs": {
-      "zh": "电动两轮 · 电动三轮 · 电池组 · 充电器 · 头盔 · 易损件",
-      "vi": "Xe 2 bánh điện · Xe 3 bánh điện · Ắc quy · Bộ sạc · Mũ bảo hiểm · Phụ tùng"
+      "zh": "外六角螺栓 · 内六角螺钉 · 螺母 · 垫圈 · 销轴 · 不锈钢件",
+      "vi": "Bu lông lục giác · Vít lục giác · Đai ốc · Vênh · Chốt · Inox"
     },
-    "icon": "/images/icons/evehicle.jpg"
+    "icon": "/images/icons/fastener.png"
+  },
+  {
+    "slug": "screws",
+    "group": "fasteners",
+    "nameZh": "螺钉与自攻",
+    "nameVi": "Vít & vít tự khoan",
+    "descZh": "机丝、自攻、钻尾、木螺钉——按规格整包",
+    "descVi": "Vít máy, vít tự khoan, vít đuôi khoan — theo quy cách",
+    "subs": {
+      "zh": "机丝螺钉 · 自攻螺钉 · 钻尾螺钉 · 木螺钉 · 组合螺钉 · 非标定制",
+      "vi": "Vít máy · Vít tự khoan · Vít đuôi khoan · Vít gỗ · Vít tổ hợp · Theo bản vẽ"
+    }
+  },
+  {
+    "slug": "anchors",
+    "group": "fasteners",
+    "nameZh": "膨胀与锚栓",
+    "nameVi": "Bu lông nở & neo",
+    "descZh": "膨胀螺栓、化学锚栓、预埋件——按载荷选型",
+    "descVi": "Bu lông nở, neo hóa chất, cụm chờ — chọn theo tải trọng",
+    "subs": {
+      "zh": "膨胀螺栓 · 化学锚栓 · 钢膨胀 · 预埋件 · 植筋胶 · 地脚螺栓",
+      "vi": "Bu lông nở · Neo hóa chất · Neo thép · Cụm chờ · Keo cột thép · Bu lông chân đế"
+    }
+  },
+  {
+    "slug": "rivets",
+    "group": "fasteners",
+    "nameZh": "铆钉与销轴",
+    "nameVi": "Rivet & chốt",
+    "descZh": "抽芯铆钉、实心铆钉、开口销、弹性圆柱销",
+    "descVi": "Rivet hột, rivet đặc, chốt hở, chốt lò xo",
+    "subs": {
+      "zh": "抽芯铆钉 · 实心铆钉 · 开口销 · 弹性圆柱销 · 卡簧 · 挡圈",
+      "vi": "Rivet hột · Rivet đặc · Chốt hở · Chốt lò xo · Khóa vòng · Vành chặn"
+    }
+  },
+  {
+    "slug": "thread-rods",
+    "group": "fasteners",
+    "nameZh": "丝杆与牙条",
+    "nameVi": "Thanh ren & căng",
+    "descZh": "丝杆、牙条、拉杆、双头螺栓——按长度截断",
+    "descVi": "Thanh ren, full ren, ren đôi — cắt theo chiều dài",
+    "subs": {
+      "zh": "丝杆 · 全牙牙条 · 双头螺栓 · 拉杆 · 花篮螺栓 · 紧固配件",
+      "vi": "Thanh ren · Full ren · Ren đôi · Thanh căng · Tăng đơ · Phụ kiện"
+    }
   }
 ]

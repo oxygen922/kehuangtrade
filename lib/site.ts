@@ -6,9 +6,9 @@ export const site = {
   legalZh: "广西柯煌进出口贸易有限公司",
   legalVi: "Công ty TNHH Thương mại Xuất nhập khẩu Kha Hoàng Quảng Tây",
   legalEn: "Guangxi Kehuang Import and Export Trading Co., LTD",
-  // 主口号（竞品同款语言：正牌 + 直进口不转手）
-  sloganZh: "正牌工业品，中国直接进口，不经第三方",
-  sloganVi: "Vật tư công nghiệp chính hãng — nhập trực tiếp từ Trung Quốc, không qua bên thứ ba",
+  // 主口号（采购代理定位）
+  sloganZh: "中国采购代理 · 中越进出口一站式",
+  sloganVi: "Đại lý mua hàng Trung Quốc · Xuất nhập khẩu Trung–Việt trọn gói",
   // 联系人
   contactZh: "阮海兰",
   contactVi: "Nguyễn Hải Lan",

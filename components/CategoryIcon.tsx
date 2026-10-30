@@ -2,43 +2,74 @@
 import { cdn } from "@/lib/site";
 
 const paths: Record<string, React.ReactNode> = {
-  labor: (
+  // 五大支柱中未配实拍图标的品类 → 线条 SVG 兜底
+  plastics: (
     <>
-      <path d="M3 16h18" />
-      <path d="M5 16a7 7 0 0 1 14 0" />
-      <path d="M12 6v3" />
+      <circle cx="6.5" cy="17" r="2.4" />
+      <circle cx="12" cy="17" r="2.4" />
+      <circle cx="17.5" cy="17" r="2.4" />
+      <circle cx="12" cy="10.8" r="2.4" />
+      <circle cx="12" cy="5.2" r="1.6" />
     </>
   ),
-  tools: (
-    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
-  ),
-  electric: <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" />,
-  equipment: (
+  "chem-raw": <path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z" />,
+  coatings: (
     <>
-      <circle cx="12" cy="12" r="3" />
-      <path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1" />
+      <rect x="3.5" y="4.5" width="12" height="5" rx="1" />
+      <path d="M15.5 7H20v3.5h-8" />
+      <path d="M12 10.5V14" />
+      <rect x="10" y="14" width="4" height="5.5" rx="1" />
     </>
   ),
-  facility: (
+  "metal-sheets": (
     <>
-      <path d="M3 7l9-4 9 4v10l-9 4-9-4z" />
-      <path d="M3 7l9 4 9-4M12 11v10" />
+      <path d="M4 8l8-4 8 4-8 4z" />
+      <path d="M4 12l8 4 8-4" />
+      <path d="M4 16l8 4 8-4" />
     </>
   ),
-  vehicle: (
+  gypsum: (
     <>
-      <path d="M1 6h12v10H1z" />
-      <path d="M13 9h5l3 3v4h-8z" />
-      <circle cx="6" cy="18" r="2" />
-      <circle cx="17" cy="18" r="2" />
+      <rect x="5" y="4" width="14" height="16" rx="1" />
+      <path d="M5 9.3h14M5 14.6h14M12 4v5.3M8.5 9.3v5.3M15.5 9.3v5.3M12 14.6V20" />
     </>
   ),
-  fastener: (
+  formwork: (
     <>
-      <path d="M12 2l8 5v10l-8 5-8-5V7z" />
-      <circle cx="12" cy="12" r="3" />
+      <rect x="4" y="5" width="16" height="6" rx="1" />
+      <rect x="4" y="13" width="16" height="6" rx="1" />
+      <path d="M9.5 5v6M14.5 13v6" />
     </>
   ),
+  screws: (
+    <>
+      <path d="M8 4h8l1.5 3.5H6.5z" />
+      <path d="M12 7.5V21" />
+      <path d="M9.5 10.5h5M9.5 13.5h5M9.5 16.5h5" />
+    </>
+  ),
+  anchors: (
+    <>
+      <circle cx="12" cy="6" r="2.5" />
+      <path d="M12 8.5V13" />
+      <path d="M8 13h8" />
+      <path d="M8 13l4 8 4-8" />
+    </>
+  ),
+  rivets: (
+    <>
+      <circle cx="10" cy="12" r="4" />
+      <path d="M14 12h7" />
+      <path d="M17 9.5v5" />
+    </>
+  ),
+  "thread-rods": (
+    <>
+      <path d="M3 12h18" />
+      <path d="M7 9.5l-2 2.5 2 2.5M11 9.5l-2 2.5 2 2.5M15 9.5l-2 2.5 2 2.5M19 9.5l-2 2.5 2 2.5" />
+    </>
+  ),
+  // 以下 slug 沿用原有线条图标（部分品类另有实拍图标，优先生效）
   mold: (
     <>
       <rect x="4" y="4" width="16" height="16" rx="2" />
@@ -52,7 +83,6 @@ const paths: Record<string, React.ReactNode> = {
       <path d="M12 21v-3" />
     </>
   ),
-  chemical: <path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z" />,
   esd: (
     <>
       <rect x="7" y="7" width="10" height="10" />
@@ -60,12 +90,12 @@ const paths: Record<string, React.ReactNode> = {
     </>
   ),
   welding: <path d="M12 2c1 4 5 5 5 10a5 5 0 0 1-10 0c0-3 2-4 2-7 2 1 3 2 3 4z" />,
-  autoparts: (
+  vehicle: (
     <>
-      <path d="M4 13l1.8-4.5A2 2 0 0 1 7.7 7h8.6a2 2 0 0 1 1.9 1.5L20 13" />
-      <path d="M3 13h18v5H3z" />
-      <circle cx="7.5" cy="18" r="1.6" />
-      <circle cx="16.5" cy="18" r="1.6" />
+      <path d="M1 6h12v10H1z" />
+      <path d="M13 9h5l3 3v4h-8z" />
+      <circle cx="6" cy="18" r="2" />
+      <circle cx="17" cy="18" r="2" />
     </>
   ),
   agri: (
@@ -74,37 +104,6 @@ const paths: Record<string, React.ReactNode> = {
       <circle cx="17" cy="17.5" r="2.2" />
       <path d="M4 13h6l1.5-6h3.5l1 5.5" />
       <path d="M10.5 7V5h-2" />
-    </>
-  ),
-  building: (
-    <>
-      <rect x="4" y="4" width="9" height="5" rx="1" />
-      <path d="M8.5 9v2.5" />
-      <circle cx="15" cy="15.5" r="4.2" />
-      <path d="M8.5 12.5h2.4M20 6.5h.5" />
-    </>
-  ),
-  workwear: (
-    <>
-      <path d="M8.5 3.5 12 5.5l3.5-2 4 3.5-2.5 2.5v10h-10v-10L4.5 7z" />
-      <path d="M12 5.5V21" />
-    </>
-  ),
-  office: (
-    <>
-      <rect x="6" y="4.5" width="12" height="16.5" rx="2" />
-      <path d="M9.5 4.5a2.5 2.5 0 0 1 5 0" />
-      <path d="M9.5 11h5M9.5 15h3.5" />
-    </>
-  ),
-  evehicle: (
-    <>
-      <circle cx="5.5" cy="17" r="2.5" />
-      <circle cx="18" cy="17" r="2.5" />
-      <path d="M8 17h7.5" />
-      <path d="M14.5 5H17l2 12" />
-      <path d="M14.5 5l-3.5 8H8" />
-      <path d="M5 6.5h4.5" />
     </>
   ),
   __more: (
