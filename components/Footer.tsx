@@ -1,5 +1,5 @@
 import { t, type Lang } from "@/lib/i18n";
-import { site, zaloLink, whatsappLink, telHref, cdn } from "@/lib/site";
+import { site, zaloLink, whatsappLink, telHref, cdn, withBase } from "@/lib/site";
 
 export function Footer({ lang }: { lang: Lang }) {
   const d = t(lang);
@@ -57,15 +57,16 @@ export function Footer({ lang }: { lang: Lang }) {
             <div className="qr-row">
               <div className="qr-box">
                 <a className="qr" href={zaloLink()} aria-label="Zalo">
+                  {/* 二维码走站点自身路径：R2 图床未同步该文件 */}
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={cdn("/images/qr-zalo.png")} alt="Zalo QR" width={74} height={74} />
+                  <img src={withBase("/images/qr-zalo.png")} alt="Zalo QR" width={74} height={74} />
                 </a>
                 Zalo
               </div>
               <div className="qr-box">
                 <div className="qr">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={cdn("/images/qr-wechat.png")} alt="WeChat QR" width={74} height={74} />
+                  <img src={withBase("/images/qr-wechat.png")} alt="WeChat QR" width={74} height={74} />
                 </div>
                 WeChat（微信）
               </div>

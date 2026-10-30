@@ -152,13 +152,13 @@ export default function AboutPage({ params }: { params: { lang: string } }) {
         <div className="qr-row" style={{ margin: "14px 0" }}>
           <div className="qr-box">
             <a className="qr qr-lg" href={zaloLink()} aria-label="Zalo">
-              <img src={cdn("/images/qr-zalo.png")} alt="Zalo QR" width={110} height={110} />
+              <img src={withBase("/images/qr-zalo.png")} alt="Zalo QR" width={110} height={110} />
             </a>
             Zalo
           </div>
           <div className="qr-box">
             <div className="qr qr-lg">
-              <img src={cdn("/images/qr-wechat.png")} alt="WeChat QR" width={110} height={110} />
+              <img src={withBase("/images/qr-wechat.png")} alt="WeChat QR" width={110} height={110} />
             </div>
             WeChat（微信）
           </div>
