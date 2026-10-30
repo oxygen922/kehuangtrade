@@ -158,6 +158,7 @@ const dict = {
     footer: {
       contact: "联系方式",
       qr: "扫码添加",
+      scanQr: "扫右侧二维码添加",
       trustLine: "中国直供 · 正品货源 · 交付到厂",
       rights: "版权所有",
     },
@@ -321,6 +322,7 @@ const dict = {
     footer: {
       contact: "Liên hệ",
       qr: "Quét mã để thêm",
+      scanQr: "quét mã QR bên phải",
       trustLine: "Mua thẳng Trung Quốc · Hàng chính hãng · Giao tận xưởng",
       rights: "Bản quyền",
     },

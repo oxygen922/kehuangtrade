@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t, type Lang } from "@/lib/i18n";
-import { site, cdn } from "@/lib/site";
+import { site, telHref, cdn } from "@/lib/site";
 
 export function Header({ lang }: { lang: Lang }) {
   const d = t(lang);
@@ -28,7 +28,7 @@ export function Header({ lang }: { lang: Lang }) {
             {brand}
           </Link>
           <div className="header-actions">
-            <a className="hotline hotline-inline" href={`tel:${site.phone.replace(/\s/g, "")}`}>
+            <a className="hotline hotline-inline" href={telHref()}>
               ☎ {site.phone}
             </a>
             <Link className="lang-switch" href={otherPath} hrefLang={otherLang}>
