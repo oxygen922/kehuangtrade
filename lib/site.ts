@@ -5,18 +5,35 @@ export const site = {
   brandVi: "Kha Hoàng",
   legalZh: "广西柯煌进出口贸易有限公司",
   legalVi: "Công ty TNHH Thương mại Xuất nhập khẩu Kha Hoàng Quảng Tây",
-  // 主口号（竞品同款语言：正牌 + 直进口不转手）
-  sloganZh: "正牌工业品，中国直接进口，不经第三方",
-  sloganVi: "Vật tư công nghiệp chính hãng — nhập trực tiếp từ Trung Quốc, không qua bên thứ ba",
-  // 一号三用：Zalo / 热线 / WhatsApp 共用号码（启发7）
-  phone: "09xx xxx xxx",
-  phoneIntl: "8490xxxxxxx",
-  zalo: "09xx xxx xxx",
-  wechatId: "WeChatID-001",
+  legalEn: "Guangxi Kehuang Import and Export Trading Co., LTD",
+  // 主口号（采购代理定位）
+  sloganZh: "中国采购代理 · 中越进出口一站式",
+  sloganVi: "Đại lý mua hàng Trung Quốc · Xuất nhập khẩu Trung–Việt trọn gói",
+  // 联系人
+  contactZh: "阮海兰",
+  contactVi: "Nguyễn Hải Lan",
+  // 一号三用：热线 / Zalo / WhatsApp 共用号码（启发7）
+  phone: "+86 135-1771-3937",
+  phoneIntl: "8613517713937",
+  zalo: "+86 135-1771-3937",
   email: "sales@kehuangtrade.com",
+  // 主营业务
+  servicesZh: [
+    "中国采购代理 · 代寻源验货发货",
+    "中越进出口贸易 · 报关物流结算",
+    "中越商务考察 · 行程随行翻译",
+  ],
+  servicesVi: [
+    "Đại lý thu mua Trung Quốc · tìm nguồn, kiểm hàng, giao hàng",
+    "Thương mại XNK Trung – Việt · thông quan, logistics, thanh toán",
+    "Khảo sát thương mại Trung – Việt · lịch trình, phiên dịch đi cùng",
+  ],
 } as const;
 
-export const zaloLink = () => `https://zalo.me/${site.zalo.replace(/\s/g, "")}`;
+// 电话/Zalo 号码归一化：去掉空格与短横线，保留国码加号
+const dialable = (n: string) => n.replace(/[^\d+]/g, "");
+export const telHref = () => `tel:${dialable(site.phone)}`;
+export const zaloLink = () => `https://zalo.me/${dialable(site.zalo)}`;
 // WhatsApp 支持预填文案，转化直连时带上开场白
 export const whatsappLink = (text?: string) =>
   `https://wa.me/${site.phoneIntl}${text ? `?text=${encodeURIComponent(text)}` : ""}`;

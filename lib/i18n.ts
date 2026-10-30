@@ -14,8 +14,8 @@ const dict = {
       backHome: "返回首页",
     },
     home: {
-      heroTitle: "正牌工业品，中国直接进口，不经第三方",
-      heroSub: "直连中国源头工厂——设备与物料都拿源头价。拍照询价，24小时报价。",
+      heroTitle: "中国采购代理 · 中越进出口一站式",
+      heroSub: "代寻源 · 验货 · 发货｜海关手续 · 运输结算｜商务考察 · 随行翻译。拍照询价，24小时报价。",
       solutionsTitle: "按行业场景采购",
       solutionsSub: "铝材、电子、新厂、车队——看看你这行我们交付过什么",
       soon: "即将上线",
@@ -64,9 +64,11 @@ const dict = {
       categoriesTitle: "产品品类",
       categoriesSub: "目录持续扩充，没找到的直接拍照问",
       catGroups: [
-        { "key": "mro", "label": "MRO 耗材与物料" },
-        { "key": "equipment", "label": "设备与备件" },
-        { "key": "auto", "label": "汽配与车辆" }
+        { "key": "consumables", "label": "工业耗材" },
+        { "key": "mechanical", "label": "机械零件" },
+        { "key": "materials", "label": "原料" },
+        { "key": "boards", "label": "基建板材" },
+        { "key": "fasteners", "label": "紧固件" }
       ],
       onDemand: "可代采",
       moreCats: "其他品类？拍照即采",
@@ -123,6 +125,10 @@ const dict = {
       industries: ["铝材厂", "电子组装", "新厂筹建", "仓储物流", "农业合作社", "配送车队"],
       servicesTitle: "增值服务",
       services: [
+        "中国代寻源 · 验货 · 发货",
+        "中越进出口贸易",
+        "代办海关手续 · 货物运输及结算",
+        "中越商务考察 · 随行翻译",
         "中国仓集货拼柜——多家供应商合单，省运费",
         "发货前验货拍照——验收标准按你厂要求定制",
         "设备选型咨询——给中国同类机型与价格对比",
@@ -158,6 +164,7 @@ const dict = {
     footer: {
       contact: "联系方式",
       qr: "扫码添加",
+      scanQr: "扫右侧二维码添加",
       trustLine: "中国直供 · 正品货源 · 交付到厂",
       rights: "版权所有",
     },
@@ -177,8 +184,8 @@ const dict = {
       backHome: "Về trang chủ",
     },
     home: {
-      heroTitle: "Vật tư công nghiệp chính hãng — nhập trực tiếp từ Trung Quốc, không qua bên thứ ba",
-      heroSub: "Kết nối thẳng nhà máy nguồn Trung Quốc — thiết bị & vật tư đều giá gốc. Chụp ảnh hỏi giá, báo giá trong 24 giờ.",
+      heroTitle: "Đại lý mua hàng Trung Quốc · Xuất nhập khẩu Trung–Việt trọn gói",
+      heroSub: "Tìm nguồn · kiểm hàng · giao hàng｜Thủ tục hải quan · vận chuyển & thanh toán｜Khảo sát thương mại · phiên dịch đi cùng. Chụp ảnh hỏi giá, báo giá trong 24 giờ.",
       solutionsTitle: "Mua theo ngành của bạn",
       solutionsSub: "Nhôm, điện tử, nhà máy mới, đội xe — xem ngành của bạn chúng tôi đã giao những gì",
       soon: "Sắp ra mắt",
@@ -227,9 +234,11 @@ const dict = {
       categoriesTitle: "Ngành hàng",
       categoriesSub: "Danh mục liên tục mở rộng — không thấy thì chụp ảnh hỏi ngay",
       catGroups: [
-        { "key": "mro", "label": "Vật tư MRO & tiêu hao" },
-        { "key": "equipment", "label": "Thiết bị & phụ tùng" },
-        { "key": "auto", "label": "Ô tô & nâng hạ" }
+        { "key": "consumables", "label": "Vật tư tiêu hao công nghiệp" },
+        { "key": "mechanical", "label": "Linh kiện cơ khí" },
+        { "key": "materials", "label": "Nguyên liệu" },
+        { "key": "boards", "label": "Tấm / tấm xây dựng" },
+        { "key": "fasteners", "label": "Bu lông & chi tiết chuẩn" }
       ],
       onDemand: "Theo yêu cầu",
       moreCats: "Ngành khác? Chụp ảnh là có",
@@ -286,6 +295,10 @@ const dict = {
       industries: ["Nhà máy nhôm", "Điện tử", "Nhà máy mới", "Kho vận", "HTX nông nghiệp", "Đội xe giao hàng"],
       servicesTitle: "Dịch vụ gia tăng",
       services: [
+        "Tìm nguồn TQ · kiểm hàng · giao hàng",
+        "Xuất nhập khẩu Trung – Việt",
+        "Thông quan · vận chuyển & thanh toán",
+        "Khảo sát thương mại · phiên dịch",
         "Gom hàng ghép container tại kho TQ — nhiều nhà cung cấp một đơn, tiết kiệm cước",
         "Kiểm hàng & chụp ảnh trước khi gửi — tiêu chuẩn nghiệm thu theo yêu cầu xưởng bạn",
         "Tư vấn chọn thiết bị — so sánh máy & giá cùng loại tại Trung Quốc",
@@ -321,6 +334,7 @@ const dict = {
     footer: {
       contact: "Liên hệ",
       qr: "Quét mã để thêm",
+      scanQr: "quét mã QR bên phải",
       trustLine: "Mua thẳng Trung Quốc · Hàng chính hãng · Giao tận xưởng",
       rights: "Bản quyền",
     },

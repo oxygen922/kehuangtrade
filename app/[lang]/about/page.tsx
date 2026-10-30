@@ -127,11 +127,42 @@ export default function AboutPage({ params }: { params: { lang: string } }) {
       <div className="prose-block">
         <h2>{d.about.contactTitle}</h2>
         <ul className="trust-list">
-          <li>Zalo: {site.zalo}</li>
-          <li>Hotline: {site.phone}</li>
-          <li>WeChat: {site.wechatId}</li>
-          <li>Email: {site.email}</li>
+          <li>
+            {lang === "zh" ? "联系人" : "Người liên hệ"}: {lang === "zh" ? site.contactZh : site.contactVi}（{site.phone}）
+          </li>
+          <li>
+            Zalo / WhatsApp:{" "}
+            <a href={zaloLink()} style={{ fontWeight: 700 }}>
+              {site.zalo}
+            </a>
+          </li>
+          <li>
+            Email:{" "}
+            <a href={`mailto:${site.email}`} style={{ fontWeight: 700 }}>
+              {site.email}
+            </a>
+          </li>
+          <li>
+            Web:{" "}
+            <a href={site.url} style={{ fontWeight: 700 }}>
+              kehuangtrade.com
+            </a>
+          </li>
         </ul>
+        <div className="qr-row" style={{ margin: "14px 0" }}>
+          <div className="qr-box">
+            <a className="qr qr-lg" href={zaloLink()} aria-label="Zalo">
+              <img src={cdn("/images/qr-zalo.png")} alt="Zalo QR" width={110} height={110} />
+            </a>
+            Zalo
+          </div>
+          <div className="qr-box">
+            <div className="qr qr-lg">
+              <img src={cdn("/images/qr-wechat.png")} alt="WeChat QR" width={110} height={110} />
+            </div>
+            WeChat（微信）
+          </div>
+        </div>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 8 }}>
           <a className="btn btn-primary" href={zaloLink()}>
             {d.cta.zaloNow}
